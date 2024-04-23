@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageData>
+
+    <Mimicry.label>미미크리</Mimicry.label> 
+
+    <Mimicry.description>인간의 외형을 모방하고자 했던 마음은 욕심으로만 그치라는 듯 어설프게나마 남아있다.\n종종 이 세계가 아닌 것 같은 낯선 눈동자가 당신을 바라볼 때 전율을 느낀다.\n\n한계를 담는다면 휘두를 수는 있다. 한 사람만의 힘으로는 불가능할 강력한 내려침이 가능하다.</Mimicry.description>
+    
+    <Mimicry.tools.handle.label>손잡이</Mimicry.tools.handle.label>
+
+    <Mimicry.tools.point.label>칼끝</Mimicry.tools.point.label>
+
+    <Mimicry.tools.edge.label>칼날</Mimicry.tools.edge.label>
+    
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>Selbri.LobotomyCoperation</packageId>
+    <name>LobotomyCoperation</name>
+    <author>Selbri</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>
+        Manage your Lobotomy Coperation
+    </description> 
+</ModMetaData>

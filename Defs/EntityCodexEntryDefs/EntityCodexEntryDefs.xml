@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <EntityCodexEntryDef>
+        <defName>NothingThere</defName>
+        <label>nothing there</label>
+        <useDescriptionFrom>NothingThere</useDescriptionFrom>
+        <uiIconPath>CodexEntries/NothingThere</uiIconPath>
+        <category>Advanced</category>
+        <discoveryType>BecameVisible</discoveryType>
+        <linkedThings>
+          <li>NothingThere</li>
+        </linkedThings>
+        <discoveredResearchProjects>
+          <li>NothingThereEGO</li>
+        </discoveredResearchProjects>
+        <provocationIncidents>
+          <li>NothingThere</li>
+        </provocationIncidents>
+        <orderInCategory>1000</orderInCategory>
+    </EntityCodexEntryDef>
+</Defs>

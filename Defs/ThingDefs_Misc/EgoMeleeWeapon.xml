@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Mimicry</defName>
+    <label>mimicry</label>
+    <description>The yearning to imitate the human form is sloppily reflected on the E.G.O, as if it were a reminder that it should remain a mere desire.\n\nWhen the unfamiliar and otherworldly eyes stare at you, you will feel a chill up your spine. If pushed to the limit, one can wield it.\n\nIt can deliver a powerful downswing that should be impossible for a human.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Ego_Weapons/Mimicry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>EgoMeleeWeapon</li>
+      <li>MedievalMeleeAdvanced</li> 
+    </weaponTags>
+    <costStuffCount>1110</costStuffCount>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <!-- 수정 필요 -->
+      <WorkToMake>18000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <relicChance>0</relicChance>
+    <equippedAngleOffset>-65</equippedAngleOffset> 
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>100</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>120</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>140</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Nothing There EGO</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>17</Crafting>
+      </skillRequirements>
+      <displayPriority>1000</displayPriority>
+    </recipeMaker>
+    <smeltable>false</smeltable>
+  </ThingDef>
+</Defs>

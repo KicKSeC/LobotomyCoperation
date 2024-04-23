@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+    <!-- Nothing There -->
+    <ThingDef Name="NothingThere" ParentName="BasePawn">
+        <defName>NothingThere</defName>
+        <label>nothing there</label>
+        <description>"An Abnormality whose appearance resembles a human, but cannot and should not be human. It periodically devours employees and wears their shell. The skeleton and organs are misplaced during the process, so it takes a bizarre form."\n\n"The Abnormality does have a tongue, however, it has no knowledge of speech and as such cannot talk; it can only make meaningless sounds. There is no telling what is inside its shell, but its skin continuously wears down, so there is a need to change and maintain the outer layer. It is insensible to pain; it may break its own bones or cut itself up to escape through a small crevice."\n\n"Bit by bit, we discovered that this Abnormality may be evolving. It demonstrates behaviour similar to the character of the person who used to be its shell. It even makes attempts to equate itself with human beings."\n\n"When it escapes, it wears the skin of the person it killed and mimics them. Then, without any sign or forewarning, it reveals its true/second form. In its true/second form, its resemblance is much similar to that of humanity in comparison to its earlier form. The new form is confirmed to possess bipedalism, properly aligned organs, and the addition of greater physical strength. All the employees are afraid of this form."</description>
+        <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+        <statBases>
+          <MoveSpeed>3.8</MoveSpeed>
+          <Flammability>1.5</Flammability>
+          <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+          <ComfyTemperatureMax>60</ComfyTemperatureMax>
+          <PsychicSensitivity>1</PsychicSensitivity>
+          <MinimumContainmentStrength>120</MinimumContainmentStrength>
+          <StaggerDurationFactor>0</StaggerDurationFactor>
+          <ToxicResistance>1</ToxicResistance> 
+          <bleedRateFactor>1</bleedRateFactor>
+        </statBases>
+        <uiIconPath>Things/Pawn/NothingThere/NothingThere_MenuIcon</uiIconPath>
+        <tradeability>None</tradeability>
+        <hideStats>true</hideStats>
+        <onlyShowInspectString>true</onlyShowInspectString>
+        <hideMainDesc>true</hideMainDesc>
+        <lifeStages>
+          <li>
+            <bodyGraphicData>
+              <texPath>Things/Pawn/NothingThere</texPath>
+              <drawSize>2</drawSize>
+            </bodyGraphicData>
+          </li>
+        </lifeStages>
+        <race>
+          <thinkTreeMain>NothingThere</thinkTreeMain>
+          <thinkTreeConstant>NothingThereConstant</thinkTreeConstant>
+          <body>Human</body>
+          <baseBodySize>4</baseBodySize>
+          <baseHealthScale>12</baseHealthScale>
+          <needsRest>false</needsRest>
+          <hasGenders>false</hasGenders>
+          <fleshType>FleshBeast</fleshType>
+          <foodType>None</foodType>
+          <hasCorpse>false</hasCorpse>
+          <lifeExpectancy>1000</lifeExpectancy>
+          <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+          <renderTree>NothingThere</renderTree> 
+          <disableIgniteVerb>true</disableIgniteVerb>
+          <trainability>None</trainability>
+          <bloodDef>Filth_Blood</bloodDef>
+          <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>  
+          <hediffGiverSets>
+            <li>Abnomality</li>
+          </hediffGiverSets>
+        </race>
+        <!-- componenet -->
+        <comps>
+          <li>
+            <compClass>CompNothingThere</compClass>
+          </li>
+          <li Class="CompProperties_HoldingPlatformTarget">
+            <baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+            <lookForTargetOnEscape>false</lookForTargetOnEscape>
+          </li>
+          <li Class="CompProperties_AttachPoints">
+            <points>
+              <li>
+                <offset>(-.35, 0, .35)</offset>
+                <type>PlatformRestraint0</type>
+              </li>
+              <li>
+                <offset>(.35, 0, .35)</offset>
+                <type>PlatformRestraint1</type>
+              </li>
+              <li>
+                <offset>(.2, 0, -.71)</offset>
+                <type>PlatformRestraint2</type>
+              </li>
+              <li>
+                <offset>(-.2, 0, -.71)</offset>
+                <type>PlatformRestraint3</type>
+              </li>
+            </points>
+          </li>
+          <li Class="CompProperties_ProducesBioferrite">
+            <bioferriteDensity>20</bioferriteDensity>
+          </li>
+          <li Class="CompProperties_Studiable">
+            <frequencyTicks>120000</frequencyTicks>
+            <knowledgeCategory>Advanced</knowledgeCategory>
+            <anomalyKnowledge>3</anomalyKnowledge>
+            <minMonolithLevelForStudy>3</minMonolithLevelForStudy>
+            <requiresHoldingPlatform>true</requiresHoldingPlatform>
+          </li>
+        </comps> 
+        <tools>
+          <li>
+            <label>arm</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>80</power>
+            <cooldownTime>2</cooldownTime>
+            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+            <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+            <chanceFactor>0.2</chanceFactor>
+          </li>
+          <li> 
+            <capacities>
+                <li>bite</li>
+            </capacities>
+            <power>90</power>
+            <cooldownTime>2</cooldownTime>
+            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+            <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+            <chanceFactor>0.2</chanceFactor>
+          </li>  
+          <li>
+            <label>head</label>
+            <capacities>
+                <li>blunt</li>
+            </capacities>
+            <power>60</power>
+            <cooldownTime>2</cooldownTime>
+            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+            <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+            <chanceFactor>0.2</chanceFactor>
+          </li>
+        </tools>
+      </ThingDef>
+</Defs>
