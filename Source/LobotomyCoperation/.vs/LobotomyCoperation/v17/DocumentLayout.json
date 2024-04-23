@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:rimworld\\abnormalycodex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\rimworld\\abnormalycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\rimworld\\abnormalycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:rimworld\\abnormalycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Rimworld\\AbnormalyCategoryDef.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:42:19.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T18:42:19.556Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "ExtractAbnormaly.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAswCcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:14:37.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:14:37.611Z"
             }
           ]
         }
