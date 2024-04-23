@@ -6,15 +6,32 @@
     <description>The yearning to imitate the human form is sloppily reflected on the E.G.O, as if it were a reminder that it should remain a mere desire.\n\nWhen the unfamiliar and otherworldly eyes stare at you, you will feel a chill up your spine. If pushed to the limit, one can wield it.\n\nIt can deliver a powerful downswing that should be impossible for a human.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Ego_Weapons/Mimicry</texPath>
+      <texPath>EGO_Weapons/Mimicry</texPath>
+      <drawSize>1.5</drawSize>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>EgoMeleeWeapon</li>
+      <li>EGOWeapon</li>
       <li>MedievalMeleeAdvanced</li> 
     </weaponTags>
-    <costStuffCount>1110</costStuffCount>
+    
+    <recipeMaker>
+      <researchPrerequisite>NothingThereEGO</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>17</Crafting>
+      </skillRequirements>
+      <displayPriority>1110</displayPriority>
+      <!-- todo: 다른 제작대로 변경 예정 -->
+      <recipeUsers Inherit="false">
+        <li>BioferriteShaper</li>
+      </recipeUsers>
+    </recipeMaker>
+    
+    <costList>
+      <Bioferrite>1110</Bioferrite>
+      <Plasteel>100</Plasteel>
+    </costList>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
       <!-- 수정 필요 -->
@@ -48,14 +65,8 @@
         <power>140</power>
         <cooldownTime>2.6</cooldownTime>
       </li>
-    </tools>
-    <recipeMaker>
-      <researchPrerequisite>Nothing There EGO</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>17</Crafting>
-      </skillRequirements>
-      <displayPriority>1000</displayPriority>
-    </recipeMaker>
+    </tools> 
     <smeltable>false</smeltable>
+    <!-- soundInteract 집었을 때 효과음 -->
   </ThingDef>
 </Defs>
