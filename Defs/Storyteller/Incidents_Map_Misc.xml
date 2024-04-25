@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <IncidentDef ParentName="EntitySwarmBase">
+        <defName>NothingThereEmergence</defName>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <category>ThreatSmall</category> 
+        <letterLabel>Nothing There Extracted</letterLabel>
+        <letterText>A 'Nothing There' Abnormaly has been extracted.</letterText>
+        <minAnomalyThreatLevel>2</minAnomalyThreatLevel>
+        <earliestDay>60</earliestDay>
+    </IncidentDef>
+</Defs>

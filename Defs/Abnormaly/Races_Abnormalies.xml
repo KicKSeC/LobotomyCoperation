@@ -7,6 +7,11 @@
     <label>nothing there</label>
     <description>"An Abnormality whose appearance resembles a human, but cannot and should not be human. It periodically devours employees and wears their shell. The skeleton and organs are misplaced during the process, so it takes a bizarre form."\n\n"The Abnormality does have a tongue, however, it has no knowledge of speech and as such cannot talk; it can only make meaningless sounds. There is no telling what is inside its shell, but its skin continuously wears down, so there is a need to change and maintain the outer layer. It is insensible to pain; it may break its own bones or cut itself up to escape through a small crevice."\n\n"Bit by bit, we discovered that this Abnormality may be evolving. It demonstrates behaviour similar to the character of the person who used to be its shell. It even makes attempts to equate itself with human beings."\n\n"When it escapes, it wears the skin of the person it killed and mimics them. Then, without any sign or forewarning, it reveals its true/second form. In its true/second form, its resemblance is much similar to that of humanity in comparison to its earlier form. The new form is confirmed to possess bipedalism, properly aligned organs, and the addition of greater physical strength. All the employees are afraid of this form."</description>
     <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <graphicData>
+      <texPath>Things/Pawn/NothingThere/NothingThere</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>3</drawSize>
+    </graphicData> 
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
       <Flammability>1.5</Flammability>
@@ -15,19 +20,20 @@
       <StaggerDurationFactor>0</StaggerDurationFactor>
       <ToxicResistance>1</ToxicResistance>
     </statBases>
-    <uiIconPath>UI/CodexEntries/NothingThere</uiIconPath>
-    <graphicData>
-      <texPath>Things/Pawn/NothingThere/NothingThere</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
+    <uiIconPath>UI/CodexEntries/NothingThere</uiIconPath> 
     <race>
       <thinkTreeMain>Fleshbeast</thinkTreeMain>
       <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
-      <body>Fingerspike</body>
+      <body>NothingThere</body>
       <baseBodySize>4</baseBodySize>
       <baseHealthScale>12</baseHealthScale> 
       <hasCorpse>false</hasCorpse>
       <lifeExpectancy>1000</lifeExpectancy> 
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+        </li>
+      </lifeStageAges>
     </race>
     <!-- componenet -->
     <comps>   
@@ -64,13 +70,13 @@
     </comps> 
     <tools>
       <li>
-        <label>spike</label>
+        <label>hand</label>
         <capacities>
           <li>Scratch</li>
         </capacities>
         <power>80</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>MiddleSpike</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
         <surpriseAttack>

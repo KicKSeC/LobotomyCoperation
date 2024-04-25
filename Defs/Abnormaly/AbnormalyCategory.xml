@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <AbnormalyCategoryDef>
+        <defName>Zayin</defName>
+        <label>ZAYIN</label>
+        <listOrder>0</listOrder>
+    </AbnormalyCategoryDef>
+
+    <AbnormalyCategoryDef>
+        <defName>Teth</defName>
+        <label>TETH</label>
+        <listOrder>1</listOrder>
+    </AbnormalyCategoryDef>
+
+    <AbnormalyCategoryDef>
+        <defName>He</defName>
+        <label>HE</label>
+        <listOrder>2</listOrder>
+    </AbnormalyCategoryDef>
+
+    <AbnormalyCategoryDef>
+        <defName>Waw</defName>
+        <label>WAW</label>
+        <listOrder>3</listOrder>
+    </AbnormalyCategoryDef>
+
+    <AbnormalyCategoryDef>
+        <defName>Aleph</defName>
+        <label>ALEPH</label>
+        <listOrder>4</listOrder>
+    </AbnormalyCategoryDef>
+</Defs>

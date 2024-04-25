@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>AbnormalyExtractionSpot</defName>
+        <label>abnormaly extraction spot</label>
+        <description>A spot for extracting abnoramly.</description>
+        <tickerType>Normal</tickerType>
+        <passability>Standable</passability>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <building>
+            <sowTag>SupportPlantsOnly</sowTag>
+            <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+            <ai_chillDestination>false</ai_chillDestination>
+            <wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+            <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+            <buildingTags>
+                <li>Abnormaly</li>
+            </buildingTags>
+        </building>
+        <uiOrder>200</uiOrder>
+        <graphicData>
+            <texPath>Things/Building/Cogito</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3, 3)</drawSize>
+        </graphicData>
+        <size>(3, 3)</size>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <researchPrerequisites>
+            <li>ExtractingAbnormaly</li>
+        </researchPrerequisites>
+        <designationCategory>Abnormaly</designationCategory>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <selectable>true</selectable>
+        <rotatable>false</rotatable>
+        <statBases>
+            <WorkToBuild>0</WorkToBuild>
+            <MeditationFocusStrength>0.08</MeditationFocusStrength>
+        </statBases>
+        <useHitPoints>false</useHitPoints>
+        <placeWorkers>
+            <li>PlaceWorker_NeverAdjacentUnstandableRadial</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>    
+    </ThingDef>
+</Defs>

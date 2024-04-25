@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RimWorld;
 using Verse;
-using Verse.AI;
 
 namespace LobotomyCoperation
 {
-    class NothingThere : 
+    public class AbnormalyCategoryDef : Def
     {
+        public int listOrder = 999999;
     }
 }
