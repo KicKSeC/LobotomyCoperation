@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LobotomyCoperation\Source\LobotomyCoperation\obj\Debug\Abnormality.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LobotomyCoperation\Source\LobotomyCoperation\obj\Debug\Abnormality.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LobotomyCoperation\Source\LobotomyCoperation\obj\Debug\LobotomyCoperation.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LobotomyCoperation\Source\LobotomyCoperation\obj\Debug\LobotomyCoperation.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LobotomyCoperation\Assemblies\LobotomyCoperation.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LobotomyCoperation\Assemblies\LobotomyCoperation.pdb

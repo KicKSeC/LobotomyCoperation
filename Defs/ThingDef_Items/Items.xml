@@ -120,7 +120,7 @@
         <comps>
             <li Class="CompProperties_HoldingPlatformTarget">
                 <heldPawnKind>NothingThere</heldPawnKind>
-                <capturedLetterLabel>Abnormality has been contained.</capturedLetterLabel>
+                <capturedLetterLabel>Abnormality captured</capturedLetterLabel>
                 <capturedLetterText>{PAWN_nameDef} chained the containment box to a holding platform.</capturedLetterText>
             </li>
             <li Class="CompProperties_AttachPoints">
@@ -179,7 +179,7 @@
     <ThingDef ParentName="ContainmentBox">
         <defName>NothingThereBox</defName> 
         <comps>
-            <li Class="LobotomyCoperation.CompProperties_SpawnsNothingThere"/>
+            <li Class="Abnormality.CompProperties_SpawnsNothingThere"/>
         </comps>
     </ThingDef>
 </Defs>

@@ -13,10 +13,7 @@
             <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
             <ai_chillDestination>false</ai_chillDestination>
             <wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
-            <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-            <buildingTags>
-                <li>Abnormality</li>
-            </buildingTags>
+            <artificialForMeditationPurposes>false</artificialForMeditationPurposes> 
         </building>
         <uiOrder>200</uiOrder>
         <graphicData>
