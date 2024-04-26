@@ -9,7 +9,7 @@
         </targetTags>
         <category>ThreatSmall</category> 
         <letterLabel>Nothing There Extracted</letterLabel>
-        <letterText>A 'Nothing There' Abnormaly has been extracted.</letterText>
+        <letterText>A 'Nothing There' Abnormality has been extracted.</letterText>
         <minAnomalyThreatLevel>2</minAnomalyThreatLevel>
         <earliestDay>60</earliestDay>
     </IncidentDef>

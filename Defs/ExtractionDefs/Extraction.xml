@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <Defs>
-    <PsychicRitualDef_ExtractAbnormaly>
-        <defName>ExtractAbnormaly</defName>
-        <label>extract abnormaly</label>
-        <description>Extract a random abnormaly to the ritual location.\m\Typically, this process puts the subject into a brief coma. \nBut it can be unstable.</description>
+    <PsychicRitualDef_ExtractAbnormality>
+        <defName>ExtractAbnormality</defName>
+        <label>extract Abnormality</label>
+        <description>Extract a random Abnormality to the ritual location.\m\Typically, this process puts the subject into a brief coma. \nBut it can be unstable.</description>
 
-        <researchPrerequisite>Abnormaly</researchPrerequisite>
+        <researchPrerequisite>Abnormality</researchPrerequisite>
         <hoursUntilOutcome>4</hoursUntilOutcome>
         <requiredOffering>
           <filter>
@@ -26,7 +26,7 @@
           </points>
         </comaDurationDaysFromQualityCurve>
         <iconPath>UI/PsychicRituals/Cogito</iconPath>
-        <letterAICompleteLabel>Abnormaly extracted</letterAICompleteLabel>
+        <letterAICompleteLabel>Abnormality extracted</letterAICompleteLabel>
         <letterAICompleteText>{PAWN_nameDef} has been extracted</letterAICompleteText>
         <aiCastable>true</aiCastable>
         <playerCastable>false</playerCastable>
@@ -34,5 +34,5 @@
         <nonRequiredPawnsMayLeave>true</nonRequiredPawnsMayLeave>
         <defenderRole>Defender</defenderRole>
         <letterAIArrivedText>They intend to use a psychic ritual to extract a colonist via teleportation.</letterAIArrivedText>
-    </PsychicRitualDef_ExtractAbnormaly>
+    </PsychicRitualDef_ExtractAbnormality>
 </Defs>

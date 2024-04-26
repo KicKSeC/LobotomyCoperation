@@ -29,6 +29,7 @@
       <baseHealthScale>12</baseHealthScale> 
       <hasCorpse>false</hasCorpse>
       <lifeExpectancy>1000</lifeExpectancy> 
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
       <lifeStageAges>
         <li>
           <def>EntityFullyFormed</def>
@@ -37,6 +38,10 @@
     </race>
     <!-- componenet -->
     <comps>   
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
+        <lookForTargetOnEscape>false</lookForTargetOnEscape>
+      </li>
       <li Class="CompProperties_AttachPoints">
         <points>
           <li>

@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\abnomarlycodex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:abnomarlycodex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\compnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:compnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\abnormalyfind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:abnormalyfind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\compproperties_nothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:compproperties_nothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\abnormalycodexentrydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:abnormalycodexentrydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\pawnkindabnormalitydefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:pawnkindabnormalitydefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\extractabnormaly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:extractabnormaly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\compspawnsnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:compspawnsnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\abnormalycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:abnormalycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\compproperties_spawnsnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:compproperties_spawnsnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\extractabnormalydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:extractabnormalydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\abnormalitycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:abnormalitycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\extractabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:extractabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\lobotomycoperation\\source\\lobotomycoperation\\factionabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|LobotomyCoperation.csproj|solutionrelative:factionabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AbnomarlyCodex.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnomarlyCodex.cs",
-              "RelativeDocumentMoniker": "AbnomarlyCodex.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnomarlyCodex.cs",
-              "RelativeToolTip": "AbnomarlyCodex.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "CompNothingThere.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\CompNothingThere.cs",
+              "RelativeDocumentMoniker": "CompNothingThere.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\CompNothingThere.cs",
+              "RelativeToolTip": "CompNothingThere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T05:34:01.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AbnormalyFind.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnormalyFind.cs",
-              "RelativeDocumentMoniker": "AbnormalyFind.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnormalyFind.cs",
-              "RelativeToolTip": "AbnormalyFind.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T05:15:44.884Z",
+              "WhenOpened": "2024-04-26T07:38:25.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AbnormalyCodexEntryDef.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnormalyCodexEntryDef.cs",
-              "RelativeDocumentMoniker": "AbnormalyCodexEntryDef.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnormalyCodexEntryDef.cs",
-              "RelativeToolTip": "AbnormalyCodexEntryDef.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAADwvzYAAAAyAAAA",
+              "Title": "PawnKindAbnormalityDefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\PawnKindAbnormalityDefOf.cs",
+              "RelativeDocumentMoniker": "PawnKindAbnormalityDefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\PawnKindAbnormalityDefOf.cs",
+              "RelativeToolTip": "PawnKindAbnormalityDefOf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T05:13:31.698Z",
+              "WhenOpened": "2024-04-26T05:56:09.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AbnormalyCategoryDef.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnormalyCategoryDef.cs",
-              "RelativeDocumentMoniker": "AbnormalyCategoryDef.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnormalyCategoryDef.cs",
-              "RelativeToolTip": "AbnormalyCategoryDef.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "DocumentIndex": 1,
+              "Title": "CompProperties_NothingThere.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\CompProperties_NothingThere.cs",
+              "RelativeDocumentMoniker": "CompProperties_NothingThere.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\CompProperties_NothingThere.cs",
+              "RelativeToolTip": "CompProperties_NothingThere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T05:11:55.234Z",
+              "WhenOpened": "2024-04-26T05:55:50.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ExtractAbnormalyDef.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\ExtractAbnormalyDef.cs",
-              "RelativeDocumentMoniker": "ExtractAbnormalyDef.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\ExtractAbnormalyDef.cs",
-              "RelativeToolTip": "ExtractAbnormalyDef.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABUAAAALAAAA",
+              "Title": "AbnormalityCategoryDef.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnormalityCategoryDef.cs",
+              "RelativeDocumentMoniker": "AbnormalityCategoryDef.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\AbnormalityCategoryDef.cs",
+              "RelativeToolTip": "AbnormalityCategoryDef.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T19:03:04.485Z",
+              "WhenOpened": "2024-04-26T05:55:41.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExtractAbnormality.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\ExtractAbnormality.cs",
+              "RelativeDocumentMoniker": "ExtractAbnormality.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\ExtractAbnormality.cs",
+              "RelativeToolTip": "ExtractAbnormality.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAUwEoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T05:44:40.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompProperties_SpawnsNothingThere.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\CompProperties_SpawnsNothingThere.cs",
+              "RelativeDocumentMoniker": "CompProperties_SpawnsNothingThere.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\CompProperties_SpawnsNothingThere.cs",
+              "RelativeToolTip": "CompProperties_SpawnsNothingThere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T05:44:19.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ExtractAbnormaly.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\ExtractAbnormaly.cs",
-              "RelativeDocumentMoniker": "ExtractAbnormaly.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\ExtractAbnormaly.cs",
-              "RelativeToolTip": "ExtractAbnormaly.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAswCgAAAAcAAAA",
+              "Title": "CompSpawnsNothingThere.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\CompSpawnsNothingThere.cs",
+              "RelativeDocumentMoniker": "CompSpawnsNothingThere.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\CompSpawnsNothingThere.cs",
+              "RelativeToolTip": "CompSpawnsNothingThere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:14:37.611Z",
+              "WhenOpened": "2024-04-26T05:17:04.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FactionAbnormality.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\FactionAbnormality.cs",
+              "RelativeDocumentMoniker": "FactionAbnormality.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LobotomyCoperation\\Source\\LobotomyCoperation\\FactionAbnormality.cs",
+              "RelativeToolTip": "FactionAbnormality.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T05:07:45.163Z",
               "EditorCaption": ""
             }
           ]

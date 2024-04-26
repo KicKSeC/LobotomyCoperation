@@ -9,7 +9,7 @@ using Verse;
 
 namespace LobotomyCoperation
 {
-    public class ExtractAbnormalyDef : PsychicRitualDef_InvocationCircle
+    public class ExtractAbnormalityDef : PsychicRitualDef_InvocationCircle
     {
         public SimpleCurve psychicShockChanceFromQualityCurve;
 
@@ -20,7 +20,7 @@ namespace LobotomyCoperation
         public override List<PsychicRitualToil> CreateToils(PsychicRitual psychicRitual, PsychicRitualGraph graph)
         {
             List<PsychicRitualToil> list = base.CreateToils(psychicRitual, graph);
-            list.Add(new ExtractAbnormaly(InvokerRole, psychicShockChanceFromQualityCurve));
+            list.Add(new ExtractAbnormality(InvokerRole, psychicShockChanceFromQualityCurve));
             return list;
         }
 

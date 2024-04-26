@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-  <AbnormalyCodexEntryDef>
+  <AbnormalityCodexEntryDef>
     <defName>NothingThere</defName>
     <label>nothing there</label>
     <useDescriptionFrom>NothingThere</useDescriptionFrom>
@@ -18,5 +18,5 @@
       <li>NothingThereEmergence</li>
     </provocationIncidents>
     <orderInCategory>620</orderInCategory>
-  </AbnormalyCodexEntryDef> 
+  </AbnormalityCodexEntryDef> 
 </Defs>

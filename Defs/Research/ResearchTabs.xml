@@ -5,8 +5,8 @@
     <ResearchTabDef>
         <defName>LobotomyCoperation</defName>
         <label>lobotomy coperation</label>
-        <generalTitle>abnormaly research projects</generalTitle>
-        <generalDescription>Unlock technologies related to Robotomy Corporation by studying abnormaly objects</generalDescription>
+        <generalTitle>abnormality research projects</generalTitle>
+        <generalDescription>Unlock technologies related to Robotomy Corporation by studying abnormality objects</generalDescription>
         <visibleByDefault>false</visibleByDefault>
         <minMonolithLevelVisible>2</minMonolithLevelVisible>
     </ResearchTabDef>

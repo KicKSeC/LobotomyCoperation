@@ -34,7 +34,7 @@
       <li>Ultratech</li>
     </weaponClasses>
     <comps> 
-      <li Class="CompProperties_BladelinkWeapon">
+      <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
         <biocodeOnEquip>true</biocodeOnEquip>
       </li> 
     </comps>

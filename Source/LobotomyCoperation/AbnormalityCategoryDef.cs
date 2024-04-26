@@ -1,5 +1,4 @@
-﻿using RimWorld;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +7,8 @@ using Verse;
 
 namespace LobotomyCoperation
 {
-    public class AbnomarlyCodex : IExposable
+    public class AbnormalityCategoryDef : Def
     {
+        public int listOrder = 999999;
     }
 }

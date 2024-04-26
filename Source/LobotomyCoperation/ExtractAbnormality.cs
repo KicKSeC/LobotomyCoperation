@@ -11,17 +11,17 @@ using UnityEngine;
 
 namespace LobotomyCoperation
 {
-    public class ExtractAbnormaly : PsychicRitualToil
+    public class ExtractAbnormality : PsychicRitualToil
     {
         private PsychicRitualRoleDef invokerRole;
 
         private SimpleCurve psychicShockChanceFromQualityCurve;
 
-        protected ExtractAbnormaly()
+        protected ExtractAbnormality()
         {
         }
 
-        public ExtractAbnormaly(PsychicRitualRoleDef invokerRole, SimpleCurve psychicShockChanceFromQualityCurve)
+        public ExtractAbnormality(PsychicRitualRoleDef invokerRole, SimpleCurve psychicShockChanceFromQualityCurve)
         {
             this.invokerRole = invokerRole;
             this.psychicShockChanceFromQualityCurve = psychicShockChanceFromQualityCurve;
@@ -42,9 +42,10 @@ namespace LobotomyCoperation
             Map map = psychicRitual.Map;
             List<IncidentDef> list = new List<IncidentDef>();
             bool flag = false;
-            foreach (EntityCategoryDef item in DefDatabase<EntityCategoryDef>.AllDefs.OrderBy((EntityCategoryDef x) => x.listOrder))
+            foreach (EntityCategoryDef item in DefDatabase<EntityCategoryDef>.AllDefs.OrderBy((EntityCategoryDef x) 
+                => x.listOrder))
             {
-                foreach (AbnormalyCodexEntryDef allDef in DefDatabase<AbnormalyCodexEntryDef>.AllDefs)
+                foreach (EntityCodexEntryDef allDef in DefDatabase<EntityCodexEntryDef>.AllDefs)
                 {
                     if (allDef.category != item || allDef.provocationIncidents.NullOrEmpty() || allDef.Discovered)
                     {
@@ -71,7 +72,7 @@ namespace LobotomyCoperation
 
             if (!list.Any())
             {
-                foreach (AbnormalyCodexEntryDef allDef2 in DefDatabase<AbnormalyCodexEntryDef>.AllDefs)
+                foreach (EntityCodexEntryDef allDef2 in DefDatabase<EntityCodexEntryDef>.AllDefs)
                 {
                     if (allDef2.provocationIncidents.NullOrEmpty())
                     {

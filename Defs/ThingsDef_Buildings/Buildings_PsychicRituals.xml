@@ -2,8 +2,8 @@
 <Defs>
 
     <ThingDef ParentName="BuildingBase">
-        <defName>AbnormalyExtractionSpot</defName>
-        <label>abnormaly extraction spot</label>
+        <defName>AbnormalityExtractionSpot</defName>
+        <label>abnormality extraction spot</label>
         <description>A spot for extracting abnoramly.</description>
         <tickerType>Normal</tickerType>
         <passability>Standable</passability>
@@ -15,7 +15,7 @@
             <wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
             <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
             <buildingTags>
-                <li>Abnormaly</li>
+                <li>Abnormality</li>
             </buildingTags>
         </building>
         <uiOrder>200</uiOrder>
@@ -27,9 +27,9 @@
         <size>(3, 3)</size>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <researchPrerequisites>
-            <li>ExtractingAbnormaly</li>
+            <li>ExtractingAbnormality</li>
         </researchPrerequisites>
-        <designationCategory>Abnormaly</designationCategory>
+        <designationCategory>Abnormality</designationCategory>
         <altitudeLayer>FloorEmplacement</altitudeLayer>
         <selectable>true</selectable>
         <rotatable>false</rotatable>

@@ -49,13 +49,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbnomarlyCodex.cs" />
-    <Compile Include="AbnormalyCategoryDef.cs" />
-    <Compile Include="AbnormalyCodexEntryDef.cs" />
-    <Compile Include="ExtractAbnormaly.cs" />
-    <Compile Include="ExtractAbnormalyDef.cs" />
-    <Compile Include="AbnormalyFind.cs" />
+    <Compile Include="AbnormalityCategoryDef.cs" />
+    <Compile Include="CompNothingThere.cs" />
+    <Compile Include="CompProperties_NothingThere.cs" />
+    <Compile Include="CompSpawnsNothingThere.cs" />
+    <Compile Include="ContainmentBox.cs" />
+    <Compile Include="ExtractAbnormality.cs" />
+    <Compile Include="ExtractAbnormalityDef.cs" />
+    <Compile Include="CompProperties_SpawnsNothingThere.cs" />
+    <Compile Include="FactionAbnormality.cs" />
+    <Compile Include="PawnKindAbnormalityDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

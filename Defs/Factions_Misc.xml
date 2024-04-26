@@ -5,7 +5,7 @@
         <defName>Abnormalities</defName>
         <label>abnormalities</label>
         <fixedName>Dark entities</fixedName>
-        <pawnSingular>abnormaly</pawnSingular>
+        <pawnSingular>abnormality</pawnSingular>
         <pawnsPlural>abnormalities</pawnsPlural>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <raidCommonalityFromPointsCurve>
@@ -19,6 +19,9 @@
         <autoFlee>false</autoFlee>
         <canUseAvoidGrid>false</canUseAvoidGrid>
         <techLevel>Animal</techLevel> 
+        <permanentEnemyToEveryoneExcept>
+            <li>Insect</li>
+        </permanentEnemyToEveryoneExcept>
         <hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
         <settlementTexturePath>World/DefaultSettlement</settlementTexturePath>
         <allowedArrivalTemperatureRange>-100~100</allowedArrivalTemperatureRange>
@@ -41,7 +44,7 @@
         <pawnGroupMakers Inherit="False">
             <!-- NothingThere -->
             <li>
-                <kindDef>NothingThere</kindDef>
+                <kindDef>NothingTheres</kindDef>
                 <commonality>100</commonality>
                 <options>
                     <NothingThere>1</NothingThere>

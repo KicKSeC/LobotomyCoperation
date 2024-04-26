@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Verse;
+using RimWorld;
 
 namespace LobotomyCoperation
 {
-    public static class AbnormalyFind
+    [DefOf]
+    public class FactionAbnormality : Faction
     {
-        public static AbnormalyCodex AbnormalyCodex => Current.Game
+
     }
 }

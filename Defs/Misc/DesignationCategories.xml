@@ -2,8 +2,8 @@
 <Defs>
 
     <DesignationCategoryDef>
-        <defName>Abnormaly</defName>
-        <label>abnormaly</label>
+        <defName>Abnormality</defName>
+        <label>Abnormality</label>
         <order>11</order>
         <specialDesignatorClasses>
             <li>Designator_Cancel</li>
