@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <Defs>
-    <PsychicRitualDef_ExtractAbnormality>
+    <ExtractAbnormality>
         <defName>ExtractAbnormality</defName>
         <label>extract Abnormality</label>
         <description>Extract a random Abnormality to the ritual location.\m\Typically, this process puts the subject into a brief coma. \nBut it can be unstable.</description>
@@ -34,5 +34,5 @@
         <nonRequiredPawnsMayLeave>true</nonRequiredPawnsMayLeave>
         <defenderRole>Defender</defenderRole>
         <letterAIArrivedText>They intend to use a psychic ritual to extract a colonist via teleportation.</letterAIArrivedText>
-    </PsychicRitualDef_ExtractAbnormality>
+    </ExtractAbnormality>
 </Defs>
