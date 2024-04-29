@@ -5,7 +5,6 @@
         <defName>ExtractAbnormality</defName>
         <label>extract Abnormality</label>
         <description>Extract a random Abnormality to the ritual location.\m\Typically, this process puts the subject into a brief coma. \nBut it can be unstable.</description>
-
         <researchPrerequisite>Abnormality</researchPrerequisite>
         <hoursUntilOutcome>4</hoursUntilOutcome>
         <requiredOffering>

@@ -15,7 +15,7 @@
         <useHitPoints>false</useHitPoints>
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
-            <MarketValue>2.00</MarketValue>
+            <MarketValue>10.00</MarketValue>
             <Mass>0.25</Mass>
             <!-- <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
             <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
@@ -93,7 +93,7 @@
         <tradeability>Sellable</tradeability>
     </ThingDef>
 
-    <ThingDef Name="ContainmentBox" ParentName="ResourceBase" Abstract="True">
+    <ThingDef Name="ContainmentBox" ParentName="ResourceBase">
         <defName>ContainmentBox</defName>
         <label>containment box</label>
         <description>A box containing an abnormality. Extracted or subdued Abnormals can be stored for a short period of time and must be placed on a suitable platform before they can escape from the containment box.</description>
@@ -116,8 +116,9 @@
         <thingCategories>
             <li>ItemsMisc</li>
         </thingCategories>
-        <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+        <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered> 
         <comps>
+            <li Class="Abnormality.CompProperties_ContainmentBox"/>
             <li Class="CompProperties_HoldingPlatformTarget">
                 <heldPawnKind>NothingThere</heldPawnKind>
                 <capturedLetterLabel>Abnormality captured</capturedLetterLabel>
@@ -174,12 +175,5 @@
                 </targetingParameters>
             </li>
         </comps> 
-    </ThingDef>
-
-    <ThingDef ParentName="ContainmentBox">
-        <defName>NothingThereBox</defName> 
-        <comps>
-            <li Class="Abnormality.CompProperties_SpawnsNothingThere"/>
-        </comps>
-    </ThingDef>
+    </ThingDef> 
 </Defs>

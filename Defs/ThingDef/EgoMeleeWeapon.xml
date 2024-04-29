@@ -86,6 +86,7 @@
     <statBases>
       <!-- 수정 필요 -->
       <WorkToMake>18000</WorkToMake>
+      <Flammability>0.5</Flammability>
       <Mass>3</Mass>
     </statBases>
     <soundInteract>Interact_BladelinkMonoSword</soundInteract>

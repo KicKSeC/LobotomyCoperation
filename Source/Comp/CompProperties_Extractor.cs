@@ -7,8 +7,11 @@ using Verse;
 
 namespace Abnormality
 {
-    public class AbnormalityCategoryDef : Def
+    public class CompProperties_Extractor : CompProperties
     {
-        public int listOrder = 999999;
+        public CompProperties_Extractor() 
+        {
+            compClass = typeof(CompExtractor);
+        }
     }
 }

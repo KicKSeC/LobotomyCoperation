@@ -10,7 +10,7 @@
     <graphicData>
       <texPath>Things/Pawn/NothingThere/NothingThere</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>3</drawSize>
+      <drawSize>2</drawSize>
     </graphicData> 
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
@@ -37,7 +37,7 @@
       </lifeStageAges>
     </race>
     <!-- componenet -->
-    <comps>   
+    <comps>    
       <li Class="CompProperties_HoldingPlatformTarget">
         <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
         <lookForTargetOnEscape>false</lookForTargetOnEscape>
@@ -71,6 +71,10 @@
         <anomalyKnowledge>3</anomalyKnowledge>
         <minMonolithLevelForStudy>4</minMonolithLevelForStudy>
         <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>
+      <li Class="Abnormality.CompProperties_SpawnsNothingThere"/>
+      <li>
+        <compClass>Abnormality.CompNothingThere</compClass>
       </li>
     </comps> 
     <tools>

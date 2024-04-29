@@ -5,10 +5,10 @@
         <defName>NothingThere</defName>
         <label>nothing there</label> 
         <race>NothingThere</race> 
-        <defaultFactionType>Entities</defaultFactionType>
+        <defaultFactionType>Abnormalities</defaultFactionType>
         <combatPower>600</combatPower>
         <forceDeathOnDowned>true</forceDeathOnDowned> 
-        <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+        <overrideDebugActionCategory>Abnormality</overrideDebugActionCategory>
         <lifeStages>
           <li>
             <bodyGraphicData>

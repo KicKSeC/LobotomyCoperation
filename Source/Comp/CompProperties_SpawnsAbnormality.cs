@@ -7,8 +7,8 @@ using Verse;
 
 namespace Abnormality
 {
-    public class AbnormalityCategoryDef : Def
+    public class CompProperties_SpawnsAbnormality : CompProperties
     {
-        public int listOrder = 999999;
+
     }
 }

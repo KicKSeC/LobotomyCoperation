@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <AbnormalityCodex>Abnormality codex</AbnormalityCodex>
+    <AbnormalityCodexGizmoTip>View all discovered abnormalitis. Discover new abnormalitis to advance the monolith and reveal new research projects.</AbnormalityCodexGizmoTip>
+    <ResearchUnlocks>Research unlocks</ResearchUnlocks>
+    <AbnormalityCodexDesc>This page lists all known abnormalitis. Discover new entities using the “Extraction” psychic ritual. Discovering new abnormalitis reveals new research projects.</AbnormalityCodexDesc>
+    <UndiscoveredAbnormality>Undiscovered abnormality</UndiscoveredAbnormality>
+    <UndiscoveredAbnormalityDesc>You have not discovered this abnormality.</UndiscoveredAbnormalityDesc>
+    <ViewAbnormalityCodex>View abnormality codex</ViewAbnormalityCodex>
+</LanguageData>

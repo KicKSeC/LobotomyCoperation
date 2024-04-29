@@ -18,5 +18,8 @@
       <li>NothingThereEmergence</li>
     </provocationIncidents>
     <orderInCategory>620</orderInCategory>
+    <comps>
+      <li Class="CompProperties_NothingThere"/>
+    </comps>
   </AbnormalityCodexEntryDef> 
 </Defs>

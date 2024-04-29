@@ -8,10 +8,14 @@
         <pawnSingular>abnormality</pawnSingular>
         <pawnsPlural>abnormalities</pawnsPlural>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <colorSpectrum>
+            <li>220, 20, 60</li>
+            <li>255, 76, 60</li>
+        </colorSpectrum>
         <raidCommonalityFromPointsCurve>
-        <points>
-            <li>(0, 0)</li>
-        </points>
+            <points>
+                <li>(0, 0)</li>
+            </points>
         </raidCommonalityFromPointsCurve>
         <humanlikeFaction>false</humanlikeFaction>
         <hidden>true</hidden>
@@ -41,8 +45,7 @@
             </categories>
         </li>
         </backstoryFilters>
-        <pawnGroupMakers Inherit="False">
-            <!-- NothingThere -->
+        <!-- <pawnGroupMakers Inherit="False">
             <li>
                 <kindDef>NothingTheres</kindDef>
                 <commonality>100</commonality>
@@ -50,6 +53,6 @@
                     <NothingThere>1</NothingThere>
                 </options>
             </li> 
-        </pawnGroupMakers>
+        </pawnGroupMakers> -->
     </FactionDef>
 </Defs>
