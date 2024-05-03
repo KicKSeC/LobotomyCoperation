@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 using Verse;
 
 namespace Abnormality
-{
+{ 
     [DefOf]
-    public static class HediffDefOf
+    public static class ThingDefOf
     {
-        public static HediffDef ContainmentBoxHolder;
-
-        static HediffDefOf()
+        public static ThingDef ContainmentBox;
+        static ThingDefOf()
         {
-            DefOfHelper.EnsureInitializedInCtor(typeof(HediffDefOf));
+            DefOfHelper.EnsureInitializedInCtor(typeof(RimWorld.ThingDefOf));
         }
     }
+
 }

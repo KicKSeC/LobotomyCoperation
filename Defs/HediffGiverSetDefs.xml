@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <HediffGiverSetDef>
+        <defName>Abnormality</defName>
+        <hediffGivers>
+            <li Class="HediffGiver_Bleeding">
+                <hediff>BloodLoss</hediff>
+            </li>
+            <li Class="Abnormality.HediffGiver_ContainmentBoxHolder">
+                <hediff>ContainmentBoxHolder</hediff>
+            </li>
+        </hediffGivers>
+    </HediffGiverSetDef>
+</Defs>

@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compcontainmentbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compcontainmentbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\abnormality\\abnormalitycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:abnormality\\abnormalitycategorydef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\thingdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:thingdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\find.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:find.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\hediff_containmentboxholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:hediff_containmentboxholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\hediff\\hediff_containmentboxholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:hediff\\hediff_containmentboxholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compproperties_containmentbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compproperties_containmentbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compspawnsnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compspawnsnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compproperties_extractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compproperties_extractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compproperties_nothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compproperties_nothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compcontainmentbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compcontainmentbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compproperties_spawnsabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compproperties_spawnsabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compproperties_spawnsnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compproperties_spawnsnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compproperties_spawnsabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compproperties_spawnsabnormality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compnothingthere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,67 +54,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AbnormalityCategoryDef.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Abnormality\\AbnormalityCategoryDef.cs",
-              "RelativeDocumentMoniker": "Abnormality\\AbnormalityCategoryDef.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Abnormality\\AbnormalityCategoryDef.cs",
-              "RelativeToolTip": "Abnormality\\AbnormalityCategoryDef.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T17:17:06.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Find.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Find.cs",
-              "RelativeDocumentMoniker": "Find.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Find.cs",
-              "RelativeToolTip": "Find.cs",
+              "Title": "CompProperties_Extractor.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_Extractor.cs",
+              "RelativeDocumentMoniker": "Comp\\CompProperties_Extractor.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_Extractor.cs",
+              "RelativeToolTip": "Comp\\CompProperties_Extractor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T16:47:01.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThingDefOf.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\ThingDefOf.cs",
-              "RelativeDocumentMoniker": "ThingDefOf.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\ThingDefOf.cs",
-              "RelativeToolTip": "ThingDefOf.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T16:46:59.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CompContainmentBox.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompContainmentBox.cs",
-              "RelativeDocumentMoniker": "Comp\\CompContainmentBox.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompContainmentBox.cs",
-              "RelativeToolTip": "Comp\\CompContainmentBox.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:23:28.759Z",
+              "WhenOpened": "2024-05-03T07:53:30.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Hediff_ContainmentBoxHolder.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Hediff_ContainmentBoxHolder.cs",
-              "RelativeDocumentMoniker": "Hediff_ContainmentBoxHolder.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Hediff_ContainmentBoxHolder.cs",
-              "RelativeToolTip": "Hediff_ContainmentBoxHolder.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAlAAAA",
+              "Title": "CompProperties_NothingThere.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_NothingThere.cs",
+              "RelativeDocumentMoniker": "Comp\\CompProperties_NothingThere.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_NothingThere.cs",
+              "RelativeToolTip": "Comp\\CompProperties_NothingThere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:23:20.279Z",
+              "WhenOpened": "2024-05-03T07:53:29.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompProperties_ContainmentBox.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_ContainmentBox.cs",
+              "RelativeDocumentMoniker": "Comp\\CompProperties_ContainmentBox.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_ContainmentBox.cs",
+              "RelativeToolTip": "Comp\\CompProperties_ContainmentBox.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T07:53:15.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompAbnormality.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompAbnormality.cs",
+              "RelativeDocumentMoniker": "Comp\\CompAbnormality.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompAbnormality.cs",
+              "RelativeToolTip": "Comp\\CompAbnormality.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T07:48:57.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompContainmentBox.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompContainmentBox.cs",
+              "RelativeDocumentMoniker": "Comp\\CompContainmentBox.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompContainmentBox.cs",
+              "RelativeToolTip": "Comp\\CompContainmentBox.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T07:48:56.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompNothingThere.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompNothingThere.cs",
+              "RelativeDocumentMoniker": "Comp\\CompNothingThere.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompNothingThere.cs",
+              "RelativeToolTip": "Comp\\CompNothingThere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T07:48:51.679Z",
               "EditorCaption": ""
             },
             {
@@ -127,46 +140,33 @@
               "RelativeToolTip": "Comp\\CompProperties_SpawnsNothingThere.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:21:09.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CompProperties_SpawnsAbnormality.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_SpawnsAbnormality.cs",
-              "RelativeDocumentMoniker": "Comp\\CompProperties_SpawnsAbnormality.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_SpawnsAbnormality.cs",
-              "RelativeToolTip": "Comp\\CompProperties_SpawnsAbnormality.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:20:22.773Z",
+              "WhenOpened": "2024-05-03T07:48:46.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CompSpawnsNothingThere.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompSpawnsNothingThere.cs",
-              "RelativeDocumentMoniker": "Comp\\CompSpawnsNothingThere.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompSpawnsNothingThere.cs",
-              "RelativeToolTip": "Comp\\CompSpawnsNothingThere.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CompProperties_SpawnsAbnormality.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_SpawnsAbnormality.cs",
+              "RelativeDocumentMoniker": "Comp\\CompProperties_SpawnsAbnormality.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_SpawnsAbnormality.cs",
+              "RelativeToolTip": "Comp\\CompProperties_SpawnsAbnormality.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:20:15.182Z",
+              "WhenOpened": "2024-05-03T07:48:44.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CompProperties_ContainmentBox.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_ContainmentBox.cs",
-              "RelativeDocumentMoniker": "Comp\\CompProperties_ContainmentBox.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompProperties_ContainmentBox.cs",
-              "RelativeToolTip": "Comp\\CompProperties_ContainmentBox.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Hediff_ContainmentBoxHolder.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Hediff\\Hediff_ContainmentBoxHolder.cs",
+              "RelativeDocumentMoniker": "Hediff\\Hediff_ContainmentBoxHolder.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Hediff\\Hediff_ContainmentBoxHolder.cs",
+              "RelativeToolTip": "Hediff\\Hediff_ContainmentBoxHolder.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:20:11.356Z",
+              "WhenOpened": "2024-05-03T07:46:45.49Z",
               "EditorCaption": ""
             }
           ]

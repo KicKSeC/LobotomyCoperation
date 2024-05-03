@@ -11,8 +11,8 @@ namespace Abnormality
     public class CompProperties_SpawnsNothingThere : CompProperties_SpawnsAbnormality
     {
         public CompProperties_SpawnsNothingThere() 
-        {
-            compClass = typeof(CompSpawnsNothingThere);
+        { 
+            compClass = typeof(CompNothingThere);
         }
     }
 }

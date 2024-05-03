@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RimWorld;
 using Verse;
 
 namespace Abnormality
-{ 
-    public static class Find
+{
+    public class HediffGiver_ContainmentBoxHolder : HediffGiver
     {
-        public static AbnormalityCodex AbnormalityCodex = new AbnormalityCodex();
+        //public new HediffDef hediff = HediffDefOf.ContainmentBoxHolder;
     }
 }

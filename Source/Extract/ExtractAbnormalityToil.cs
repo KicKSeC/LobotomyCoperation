@@ -50,7 +50,7 @@ namespace Abnormality
             psychicRitual.Map.effecterMaintainer.AddEffecterToMaintain(EffecterDefOf.Skip_EntryNoDelay.Spawn(target.PositionHeld, psychicRitual.Map), target.PositionHeld, 60);
             SoundDefOf.Psycast_Skip_Entry.PlayOneShot(new TargetInfo(target.PositionHeld, target.Map)); 
 
-            if (compBox.abnormalitySpawnsAssigned == null)
+            if (compBox.SpawnsAbnormality == null)
             {
                 Log.Error("Could not find abnormality for ExtractAbnormality.");
                 return;
@@ -58,12 +58,10 @@ namespace Abnormality
 
             psychicRitual.Map.effecterMaintainer.AddEffecterToMaintain(EffecterDefOf.Skip_ExitNoDelay.Spawn(cell, psychicRitual.Map), cell, 60);
             SoundDefOf.Psycast_Skip_Exit.PlayOneShot(new TargetInfo(cell, psychicRitual.Map));
-            target.Destroy();
-            //DamageInfo dinfo = new DamageInfo(DamageDefOf.Vaporize, 99999);
-            //dinfo.SetApplyAllDamage(value: true);
-            //target.TakeDamage(dinfo);
+            target.Destroy(); 
             Thing box = ThingMaker.MakeThing(ThingDefOf.ContainmentBox);
             box.TryGetComp<CompContainmentBox>(out compBox);
+
             TaggedString text = "ExtractAbnormalityCompleteText".Translate(invoker.Named("INVOKER"), psychicRitual.def.Named("RITUAL"), target.Named("TARGET"));
             Verse.Find.LetterStack.ReceiveLetter("PsychicRitualCompleteLabel".Translate(psychicRitual.def.label), text, LetterDefOf.NeutralEvent, new LookTargets(box));
         }

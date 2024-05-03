@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Abnormality.Comp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,8 +8,8 @@ using Verse;
 
 namespace Abnormality
 {
-    public class CompProperties_SpawnsAbnormality : CompProperties
-    {
+    public abstract class CompProperties_SpawnsAbnormality : CompProperties
+    { 
 
     }
 }

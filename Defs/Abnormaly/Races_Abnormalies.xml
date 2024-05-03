@@ -38,6 +38,10 @@
     </race>
     <!-- componenet -->
     <comps>    
+      <li>
+        <compClass>Abnormality.CompNothingThere</compClass>
+      </li>
+      <li Class="Abnormality.CompProperties_SpawnsNothingThere"/>
       <li Class="CompProperties_HoldingPlatformTarget">
         <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
         <lookForTargetOnEscape>false</lookForTargetOnEscape>
@@ -45,19 +49,19 @@
       <li Class="CompProperties_AttachPoints">
         <points>
           <li>
-            <offset>(-.21, 0, .21)</offset>
+            <offset>(-.45, 0, .3)</offset>
             <type>PlatformRestraint0</type>
           </li>
           <li>
-            <offset>(.21, 0, .21)</offset>
+            <offset>(.70, 0, .40)</offset>
             <type>PlatformRestraint1</type>
           </li>
           <li>
-            <offset>(.21, 0, -.21)</offset>
+            <offset>(.40, 0, -.55)</offset>
             <type>PlatformRestraint2</type>
           </li>
           <li>
-            <offset>(-.21, 0, -.21)</offset>
+            <offset>(-0.9, 0, -.75)</offset>
             <type>PlatformRestraint3</type>
           </li>
         </points>
@@ -71,11 +75,7 @@
         <anomalyKnowledge>3</anomalyKnowledge>
         <minMonolithLevelForStudy>4</minMonolithLevelForStudy>
         <requiresHoldingPlatform>true</requiresHoldingPlatform>
-      </li>
-      <li Class="Abnormality.CompProperties_SpawnsNothingThere"/>
-      <li>
-        <compClass>Abnormality.CompNothingThere</compClass>
-      </li>
+      </li> 
     </comps> 
     <tools>
       <li>

@@ -58,6 +58,7 @@
     <Compile Include="Abnormality\AbnormalityCategoryDef.cs" />
     <Compile Include="Abnormality\AbnormalityCodex.cs" />
     <Compile Include="Abnormality\AbnormalityCodexEntryDef.cs" />
+    <Compile Include="Comp\CompAbnormality.cs" />
     <Compile Include="Comp\CompProperties_ContainmentBox.cs" />
     <Compile Include="Comp\CompProperties_Extractor.cs" />
     <Compile Include="Comp\CompProperties_SpawnsAbnormality.cs" />
@@ -70,13 +71,14 @@
     <Compile Include="Comp\CompContainmentBox.cs" />
     <Compile Include="Comp\CompProperties_SpawnsNothingThere.cs" />
     <Compile Include="Dialog_AbnormalityCodex.cs" />
-    <Compile Include="ExtractAbnormality.cs" />
-    <Compile Include="ExtractAbnormalityToil.cs" />
+    <Compile Include="Extract\ExtractAbnormality.cs" />
+    <Compile Include="Extract\ExtractAbnormalityToil.cs" />
     <Compile Include="Comp\CompExtractor.cs" />
-    <Compile Include="HediffDefOf.cs" />
-    <Compile Include="Hediff_ContainmentBoxHolder.cs" />
-    <Compile Include="PawnKindAbnormalityDefOf.cs" />
-    <Compile Include="ThingDefOf.cs" />
+    <Compile Include="DefOf\HediffDefOf.cs" />
+    <Compile Include="Hediff\HediffGiver_ContainmentBoxHolder.cs" />
+    <Compile Include="Hediff\Hediff_ContainmentBoxHolder.cs" />
+    <Compile Include="DefOf\PawnKindAbnormalityDefOf.cs" />
+    <Compile Include="DefOf\ThingDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
