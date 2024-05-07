@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs> 
+  <ThingDef Name="BaseWeapon_EGOWeapon" ParentName="BaseWeapon" Abstract="True">
+    <techLevel>Ultra</techLevel>
+    <tradeNeverStack>true</tradeNeverStack>
+    <relicChance>0</relicChance>
+    <possessionCount>1</possessionCount>
+    <weaponTags>
+      <li>Bladelink</li>
+      <li>EGOWeapon</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+    <comps> 
+      <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li> 
+    </comps>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <notifyMapRemoved>true</notifyMapRemoved> 
+    <thingCategories>
+      <li>EGOWeapon</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Weapons -->
+  <ThingDef ParentName="BaseWeapon_EGOWeapon">
+    <defName>Mimicry</defName>
+    <label>mimicry</label>
+    <description>The yearning to imitate the human form is sloppily reflected on the E.G.O, as if it were a reminder that it should remain a mere desire.\n\nWhen the unfamiliar and otherworldly eyes stare at you, you will feel a chill up your spine. If pushed to the limit, one can wield it.\n\nIt can deliver a powerful downswing that should be impossible for a human.</description>
+    <graphicData>
+      <texPath>EGO_Weapons/Mimicry</texPath>
+      <drawSize>1.5</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>EGOWeapon</li>
+      <li>Melee</li> 
+      <li>MeleePiercer</li>
+    </weaponTags>
+    
+    <recipeMaker>
+      <researchPrerequisite>NothingThereEGO</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>17</Crafting>
+      </skillRequirements>
+      <displayPriority>1110</displayPriority>
+      <!-- TODO: 다른 제작대로 변경 예정 -->
+      <recipeUsers Inherit="false">
+        <li>BioferriteShaper</li>
+      </recipeUsers>
+    </recipeMaker>
+    
+    <costList>
+      <Bioferrite>1110</Bioferrite>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <thingSetMakerTags>
+      <li>WeaponBladelink</li>
+    </thingSetMakerTags>
+    <statBases>
+      <!-- 수정 필요 -->
+      <WorkToMake>18000</WorkToMake>
+      <Flammability>0.5</Flammability>
+      <Mass>3</Mass>
+    </statBases>
+    <soundInteract>Interact_BladelinkMonoSword</soundInteract>
+    <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound> 
+    <equippedAngleOffset>-65</equippedAngleOffset> 
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>100</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>120</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>140</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>  
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeapon_EGOWeapon">
+    <defName>Penitence</defName>
+    <label>penitence</label>
+    <description>To know means to understand. We successfully extracted the archetype and materialized it, and the observer reshaped it into a weapon.\nThis is why we highly regarded the act of observation. The eye sockets of the hollow skull stare into sins, and the crown of thorns casts blame. Those who are willing to spill blood for the greater good will be readily given approval for its use.\n\nThough this weapon is not as strong as other E.G.O weapons in our possession, it provides psychological comfort to the wielder.\nHowever, it is useless to those who do not know justice.</description>
+    <graphicData>
+      <texPath>EGO_Weapons/Penitence</texPath>
+      <drawSize>1.5</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>EGOWeapon</li>
+      <li>Melee</li>  
+    </weaponTags>
+    
+    <recipeMaker>
+      <researchPrerequisite>NothingThereEGO</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <displayPriority>15</displayPriority>
+      <!-- todo: 다른 제작대로 변경 예정 -->
+      <recipeUsers Inherit="false">
+        <li>BioferriteShaper</li>
+      </recipeUsers>
+    </recipeMaker> 
+    <costList>
+      <Bioferrite>15</Bioferrite>
+      <Steel>10</Steel>
+    </costList> 
+    <statBases>
+      <!-- 수정 필요 -->
+      <WorkToMake>200</WorkToMake>
+      <Flammability>0.5</Flammability>
+      <Mass>3</Mass>
+    </statBases>  
+    <equippedAngleOffset>-65</equippedAngleOffset> 
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>100</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>120</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li> 
+    </tools>  
+  </ThingDef>
+</Defs>

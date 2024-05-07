@@ -8,4 +8,18 @@
     <UndiscoveredAbnormality>Undiscovered abnormality</UndiscoveredAbnormality>
     <UndiscoveredAbnormalityDesc>You have not discovered this abnormality.</UndiscoveredAbnormalityDesc>
     <ViewAbnormalityCodex>View abnormality codex</ViewAbnormalityCodex>
+    <Undiscovered>Undiscovered</Undiscovered>
+
+    <AbnormalityDiscovered>New Abnormality has been discovered. Related studies are enabled.</AbnormalityDiscovered>
+    <LetterTextAbnormalityDiscoveryResearch>New Abnormality has been discovered. Related studies are enabled.</LetterTextAbnormalityDiscoveryResearch>
+    <LetterLabelAbnormalityDiscovery>Abnormality Discovery</LetterLabelAbnormalityDiscovery> 
+
+    <!-- Extractor -->
+    <PsychicRitualAreaObstructed>Extractor area is obstructed</PsychicRitualAreaObstructed>
+
+    <ExtractAbnormalityCompleteText>{INVOKER} has finished {RITUAL} of {TARGET}.</ExtractAbnormalityCompleteText>
+    <PsychicRitualCompleteLabel>{0} has been finished.</PsychicRitualCompleteLabel> 
+
+    <!-- Hediff -->
+    <MessageContainmentBoxDropped>Abnormality was subdued in a containment box.</MessageContainmentBoxDropped>
 </LanguageData>

@@ -10,8 +10,7 @@ namespace Abnormality
 { 
     [DefOf]
     public static class HediffDefOf
-    {
-        public static HediffDef ContainmentBoxHolder;
+    { 
 
         static HediffDefOf()
         {

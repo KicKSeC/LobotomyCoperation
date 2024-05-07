@@ -6,41 +6,36 @@ using System.Threading.Tasks;
 using RimWorld;
 using Verse;
 
-namespace Abnormality.Comp
+namespace Abnormality
 {
-    public class CompAbnormality : ThingComp
-    {
-        protected Pawn Abnormality => (Pawn)parent;
-        [Unsaved(false)]
-        protected Hediff_ContainmentBoxHolder containmentBoxHolder;  
-
+    public abstract class CompAbnormality : ThingComp
+    { 
         public override void CompTick()
         {
-            base.CompTick();
-            
-            if (Abnormality.health == null)
-            {
-                Log.Error("Abnormality.health is null");
-            }
-
-            if (containmentBoxHolder == null) 
-            { 
-                containmentBoxHolder = InitHediff();
-            }
+            base.CompTick();   
         }
 
-        private Hediff_ContainmentBoxHolder InitHediff()
+        public override void Notify_Killed(Map prevMap, DamageInfo? dinfo = null)
         {
-            try
+            base.Notify_Killed(prevMap, dinfo); 
+
+            if (GenDrop.TryDropSpawn(ThingMaker.MakeThing(GetContainmentBox()), parent.PositionHeld, prevMap, ThingPlaceMode.Near, out Thing Box))
             {
-                Hediff hediff = Abnormality.health?.hediffSet?.GetFirstHediffOfDef(HediffDefOf.ContainmentBoxHolder) ?? Abnormality.health.AddHediff(HediffDefOf.ContainmentBoxHolder);
-                return (Hediff_ContainmentBoxHolder)hediff;
-            } 
-            catch (Exception ex)
+                // 메시지 출력
+                string text = parent.LabelShort;  
+                Messages.Message("MessageContainmentBoxDropped".Translate(text).CapitalizeFirst(), Box, MessageTypeDefOf.NeutralEvent);
+            }
+            else
             {
-                Log.Error($"cannot add hediff with excetion {ex}"); 
-                return null;
+                Log.Error("cannot generate ContainerBox which is null");
             }
         }
+
+        public abstract ThingDef GetContainmentBox();
+    }
+
+    public abstract class CompProperties_SpawnsAbnormality : CompProperties
+    {
+
     }
 }

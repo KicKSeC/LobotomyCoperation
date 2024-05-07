@@ -10,8 +10,6 @@ namespace Abnormality
 {
     public class CompContainmentBox : CompInteractable
     {
-        public CompProperties_SpawnsAbnormality SpawnsAbnormality { get; set; }
-        
         protected override void OnInteracted(Pawn caster)
         { 
             CompUsable comp = parent.GetComp<CompUsable>();
@@ -21,6 +19,16 @@ namespace Abnormality
         public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn selPawn)
         {
             yield break;
+        }
+    }
+
+    public class CompProperties_ContainmentBox : CompProperties
+    {
+        public CompProperties_SpawnsAbnormality SpawnsAbnormality { get; set; }
+
+        public CompProperties_ContainmentBox()
+        {
+            compClass = typeof(CompContainmentBox);
         }
     }
 }

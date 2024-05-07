@@ -11,5 +11,9 @@ namespace Abnormality
     public static class Find
     {
         public static AbnormalityCodex AbnormalityCodex = new AbnormalityCodex();
+
+        public static List<ThingDef> ContainmentBoxes = new List<ThingDef> { 
+            ThingDefOf.BoxOneSin, ThingDefOf.BoxNothingThere, ThingDefOf.BoxSingingMachine
+        };
     }
 }

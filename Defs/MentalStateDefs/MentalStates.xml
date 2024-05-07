@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <MentalBreakDef>
+        <defName>Melophile</defName>
+        <mentalState>Melophile</mentalState>
+        <baseCommonality>0</baseCommonality>
+        <intensity>Extreme</intensity>
+    </MentalBreakDef>
+    <MentalStateDef ParentName="BaseMentalState" Name="Melophile">
+        <defName>Melophile</defName>
+        <stateClass>Abnormality.AI.MentalState_Melophile</stateClass> 
+        <label>melophile</label>
+        <category>Aggro</category>
+        <blockInteractionInitiationExcept>
+            <li>Insult</li>
+        </blockInteractionInitiationExcept>
+        <blockInteractionRecipientExcept>
+            <li>Insult</li>
+        </blockInteractionRecipientExcept>
+        <blockRandomInteraction>true</blockRandomInteraction>
+        <minTicksBeforeRecovery>100000</minTicksBeforeRecovery>
+        <maxTicksBeforeRecovery>100000</maxTicksBeforeRecovery>
+        <moodRecoveryThought>Catharsis</moodRecoveryThought>
+        <blockNormalThoughts>true</blockNormalThoughts>
+        <nameColor>(0.9,0.2,0.5)</nameColor>
+        <recoveryMessage>{0} is no longer in a melophile.</recoveryMessage>
+        <beginLetter>{0} has flown into a melophile.\n\n[PAWN_pronoun] has decided to kill {1}.</beginLetter>
+        <beginLetterDef>ThreatSmall</beginLetterDef>
+        <baseInspectLine>Mental state: Melophile</baseInspectLine>
+        <allowBeatfire>true</allowBeatfire>
+    </MentalStateDef>
+
+    <MentalBreakDef>
+        <defName>MelophileKiller</defName>
+        <mentalState>MelophileKiller</mentalState>
+        <baseCommonality>0</baseCommonality>
+        <intensity>Extreme</intensity>
+    </MentalBreakDef>
+    <MentalStateDef ParentName="BaseMentalState" Name="MelophileKiller">
+        <defName>MelophileKiller</defName>
+        <stateClass>Abnormality.AI.MentalState_MelophileKiller</stateClass> 
+        <label>melophile killer</label>
+        <category>Aggro</category>
+        <blockInteractionInitiationExcept>
+            <li>Insult</li>
+        </blockInteractionInitiationExcept>
+        <blockInteractionRecipientExcept>
+            <li>Insult</li>
+        </blockInteractionRecipientExcept>
+        <blockRandomInteraction>true</blockRandomInteraction>
+        <minTicksBeforeRecovery>100000</minTicksBeforeRecovery>
+        <maxTicksBeforeRecovery>100000</maxTicksBeforeRecovery>
+        <moodRecoveryThought>Catharsis</moodRecoveryThought>
+        <blockNormalThoughts>true</blockNormalThoughts>
+        <nameColor>(0.9,0.2,0.5)</nameColor>
+        <recoveryMessage>{0} is no longer in a melophile.</recoveryMessage>
+        <beginLetter>When {0} couldn't find the body, [PAWN_pronoun] decided to kill {1}.</beginLetter>
+        <beginLetterDef>ThreatSmall</beginLetterDef>
+        <baseInspectLine>Mental state: Melophile Killer</baseInspectLine>
+        <allowBeatfire>true</allowBeatfire>
+    </MentalStateDef>
+
+    <MentalBreakDef>
+        <defName>MelophileSuicide</defName>
+        <mentalState>MelophileSuicide</mentalState>
+        <baseCommonality>0</baseCommonality>
+        <intensity>Extreme</intensity>
+    </MentalBreakDef>
+    <MentalStateDef ParentName="BaseMentalState" Name="MelophileSuicide">
+        <defName>MelophileSuicide</defName>
+        <stateClass>Abnormality.AI.MentalState_MelophileSuicide</stateClass> 
+        <label>melophile suicide</label>
+        <category>Aggro</category>
+        <blockInteractionInitiationExcept>
+            <li>Insult</li>
+        </blockInteractionInitiationExcept>
+        <blockInteractionRecipientExcept>
+            <li>Insult</li>
+        </blockInteractionRecipientExcept>
+        <blockRandomInteraction>true</blockRandomInteraction>
+        <minTicksBeforeRecovery>100000</minTicksBeforeRecovery>
+        <maxTicksBeforeRecovery>100000</maxTicksBeforeRecovery>
+        <moodRecoveryThought>Catharsis</moodRecoveryThought>
+        <blockNormalThoughts>true</blockNormalThoughts>
+        <nameColor>(0.9,0.2,0.5)</nameColor>
+        <recoveryMessage>{0} is no longer in a melophile.</recoveryMessage>
+        <beginLetter>When {0} couldn't find the body, [PAWN_pronou;n] decided to kill self.</beginLetter>
+        <beginLetterDef>ThreatSmall</beginLetterDef>
+        <baseInspectLine>Mental state: Melophile Suicide</baseInspectLine>
+        <allowBeatfire>true</allowBeatfire>
+    </MentalStateDef>
+</Defs>

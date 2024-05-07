@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  
+  <!-- Zayin -->
+  <AbnormalityCodexEntryDef>
+    <defName>OneSin</defName>
+    <label>one sin and hundreds of good deeds</label>
+    <useDescriptionFrom>OneSine</useDescriptionFrom>
+    <uiIconPath>UI/CodexEntries/OneSin</uiIconPath>
+    <category>Zayin</category>
+    <discoveryType>BecameVisible</discoveryType>
+    <linkedThings>
+      <li>OneSin</li>
+    </linkedThings>
+    <discoveredResearchProjects>
+      <li>OneSinEGO</li>
+    </discoveredResearchProjects> 
+    <provocationIncidents>
+      <li>AbnormalityEmergence</li>
+    </provocationIncidents>
+    <orderInCategory>303</orderInCategory>
+    <comps>
+      <li Class="CompProperties_OneSin"/>
+    </comps>
+  </AbnormalityCodexEntryDef> 
+  
+  <!-- He -->
+  <AbnormalityCodexEntryDef>
+    <defName>SingingMachine</defName>
+    <lebel>singing machine</lebel>
+    <useDescriptionFrom>SingingMachine</useDescriptionFrom>
+    <uiIconPath>UI/CodexEntries/SingingMachine</uiIconPath>
+    <category>He</category>
+    <discoveryType>BecameVisible</discoveryType>
+    <linkedThings>
+      <li>SingingMachine</li>
+    </linkedThings>
+    <discoveredResearchProjects>
+      <li>SingingMachineEGO</li>
+    </discoveredResearchProjects>
+    <provoctionIncidents>
+      <li>AbnormalityEmergence</li>
+    </provoctionIncidents>
+    <orderInCategory>530</orderInCategory>
+    <comps>
+      <li Class="CompProperties_SingingMachine"/>
+    </comps>
+  </AbnormalityCodexEntryDef>
+
+  <!-- Aleph -->
+  <AbnormalityCodexEntryDef>
+    <defName>NothingThere</defName>
+    <label>nothing there</label>
+    <useDescriptionFrom>NothingThere</useDescriptionFrom>
+    <uiIconPath>UI/CodexEntries/NothingThere</uiIconPath>
+    <category>Aleph</category>
+    <discoveryType>BecameVisible</discoveryType>
+    <linkedThings>
+      <li>NothingThere</li>
+    </linkedThings>
+    <discoveredResearchProjects>
+      <li>NothingThereEGO</li>
+    </discoveredResearchProjects> 
+    <provocationIncidents>
+      <li>AbnormalityEmergence</li>
+    </provocationIncidents>
+    <orderInCategory>620</orderInCategory>
+    <comps>
+      <li Class="CompProperties_NothingThere"/>
+    </comps>
+  </AbnormalityCodexEntryDef> 
+
+</Defs>

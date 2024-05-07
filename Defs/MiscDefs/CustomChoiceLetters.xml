@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <LetterDef ParentName="PositiveEvent">
+        <defName>AbnormalityDiscovered</defName>
+        <letterClass>Abnormality.ChoiceLetter_AbnormalityDiscovered</letterClass>
+    </LetterDef>
+</Defs>

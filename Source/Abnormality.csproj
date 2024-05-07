@@ -58,29 +58,35 @@
     <Compile Include="Abnormality\AbnormalityCategoryDef.cs" />
     <Compile Include="Abnormality\AbnormalityCodex.cs" />
     <Compile Include="Abnormality\AbnormalityCodexEntryDef.cs" />
+    <Compile Include="AI\MentalState_MelophileKiller.cs" />
+    <Compile Include="AI\MentalState_MelophileSuicide.cs" />
     <Compile Include="Comp\CompAbnormality.cs" />
-    <Compile Include="Comp\CompProperties_ContainmentBox.cs" />
+    <Compile Include="Comp\CompGetGizmos.cs" />
+    <Compile Include="Comp\CompOneSin.cs" />
     <Compile Include="Comp\CompProperties_Extractor.cs" />
-    <Compile Include="Comp\CompProperties_SpawnsAbnormality.cs" />
+    <Compile Include="Comp\CompSingingMachine.cs" />
+    <Compile Include="DefOf\MentalStateDefOf.cs" />
     <Compile Include="Find.cs" />
-    <Compile Include="AbnormalityLetterDefOf.cs" />
-    <Compile Include="ChoiceLetter_AbnormalityDiscovered.cs" />
+    <Compile Include="DefOf\AbnormalityLetterDefOf.cs" />
+    <Compile Include="AI\MentalState_Melophile.cs" />
+    <Compile Include="DefOf\JobDefOf.cs" />
+    <Compile Include="JobGiver\JobGiver_Melophile.cs" />
+    <Compile Include="JobGiver\JobGiver_MelophileSuicide.cs" />
+    <Compile Include="JobGiver\JobGiver_MelophileKiller.cs" />
+    <Compile Include="UI\ChoiceLetter_AbnormalityDiscovered.cs" />
     <Compile Include="Comp\CompNothingThere.cs" />
-    <Compile Include="Comp\CompProperties_NothingThere.cs" />
-    <Compile Include="Comp\CompSpawnsNothingThere.cs" />
     <Compile Include="Comp\CompContainmentBox.cs" />
-    <Compile Include="Comp\CompProperties_SpawnsNothingThere.cs" />
-    <Compile Include="Dialog_AbnormalityCodex.cs" />
+    <Compile Include="UI\Dialog_AbnormalityCodex.cs" />
     <Compile Include="Extract\ExtractAbnormality.cs" />
     <Compile Include="Extract\ExtractAbnormalityToil.cs" />
     <Compile Include="Comp\CompExtractor.cs" />
     <Compile Include="DefOf\HediffDefOf.cs" />
-    <Compile Include="Hediff\HediffGiver_ContainmentBoxHolder.cs" />
-    <Compile Include="Hediff\Hediff_ContainmentBoxHolder.cs" />
     <Compile Include="DefOf\PawnKindAbnormalityDefOf.cs" />
     <Compile Include="DefOf\ThingDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Hediff\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

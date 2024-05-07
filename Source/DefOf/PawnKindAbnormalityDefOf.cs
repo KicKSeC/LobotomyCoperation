@@ -12,7 +12,10 @@ namespace Abnormality
     public static class PawnKindAbnormalityDefOf
     {
         [MayRequireAnomaly]
-        public static PawnKindDef NothingThere; 
+        public static PawnKindDef NothingThere;
+
+        [MayRequireAnomaly]
+        public static PawnKindDef OneSin;
 
         static PawnKindAbnormalityDefOf()
         { 

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Enkephalin</defName>
+        <label>enkepalin</label>
+        <description>Enkephalin refers to the energy produced by Robotomy Corporation. It can be used as a power source and usually exists in a liquid state.\nWhen used properly in stressed employees, it can improve their performance.</description>
+        <graphicData>
+            <texPath>Things/Item/Enkephalin</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <genericMarketSellable>false</genericMarketSellable>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <useHitPoints>false</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MarketValue>10.00</MarketValue>
+            <Mass>0.25</Mass>
+            <!-- <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>2.5</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+            <SharpDamageMultiplier>1.3</SharpDamageMultiplier>
+            <BluntDamageMultiplier>0.9</BluntDamageMultiplier> -->
+        </statBases>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+        <burnableByRecipe>false</burnableByRecipe>
+        <smeltable>true</smeltable>
+        <stuffProps>
+            <categories>
+                <li>Metallic</li> 
+            </categories>
+            <appearance>Metal</appearance>
+            <commonality>0</commonality>
+            <allowedInStuffGeneration>false</allowedInStuffGeneration> 
+            <color>(100, 80, 80)</color>
+            <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+            <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+            <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+            <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+            <statOffsets>
+                <Beauty>0</Beauty>
+            </statOffsets>
+            <statFactors>
+                <MaxHitPoints>2</MaxHitPoints>
+                <Beauty>0.25</Beauty>
+                <Flammability>0.75</Flammability>
+                <WorkToMake>2.5</WorkToMake>
+                <WorkToBuild>2.5</WorkToBuild>  
+                <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+            </statFactors>
+            <statFactorsQuality>
+                <li>
+                <stat>PsychicSensitivityFactor</stat>
+                <awful>1.06</awful>
+                <poor>1.08</poor>
+                <normal>1.1</normal>
+                <good>1.13</good>
+                <excellent>1.15</excellent>
+                <masterwork>1.17</masterwork>
+                <legendary>1.20</legendary>
+                </li>
+            </statFactorsQuality>
+            <statOffsetsQuality>
+                <li MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+                    <stat>PsychicEntropyMaxOffset</stat>
+                    <awful>4</awful>
+                    <poor>6</poor>
+                    <normal>8</normal>
+                    <good>11</good>
+                    <excellent>13</excellent>
+                    <masterwork>15</masterwork>
+                    <legendary>18</legendary>
+                </li>
+                <li MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+                    <stat>PsychicEntropyRecoveryRateOffset</stat>
+                    <awful>0.04</awful>
+                    <poor>0.04</poor>
+                    <normal>0.04</normal>
+                    <good>0.04</good>
+                    <excellent>0.04</excellent>
+                    <masterwork>0.04</masterwork>
+                    <legendary>0.04</legendary>
+                </li>
+            </statOffsetsQuality>
+        </stuffProps>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <allowedArchonexusCount>80</allowedArchonexusCount>
+        <tradeability>Sellable</tradeability>
+    </ThingDef>
+
+    <ThingDef Name="ContainmentBox" ParentName="ResourceBase" Abstract="True">
+        <defName>ContainmentBox</defName>
+        <label>containment box</label>
+        <description>A box containing an abnormality. Extracted or subdued Abnormals can be stored for a short period of time and must be placed on a suitable platform before they can escape from the containment box.</description>
+        <thingClass>ThingWithComps</thingClass>
+        <graphicData>
+            <texPath>Things/Item/ContainmentBox</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Rare</tickerType>
+        <stackLimit>1</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <genericMarketSellable>false</genericMarketSellable>
+        <statBases>
+            <MaxHitPoints>30</MaxHitPoints>
+            <MarketValue>1000</MarketValue>
+            <Mass>5</Mass>
+            <Flammability>0</Flammability> 
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered> 
+        <comps> 
+            <li Class="Abnormality.CompProperties_ContainmentBox"/>  
+            <li Class="CompProperties_UseEffectPlaySound">
+                <soundOnUsed>RevenantSpineSmash</soundOnUsed>
+            </li>
+        </comps> 
+    </ThingDef>  
+
+    <!-- Zayin -->
+    <ThingDef ParentName="ContainmentBox">
+        <defName>BoxOneSin</defName>
+        <comps>
+            <li Class="CompProperties_HoldingPlatformTarget">
+                <heldPawnKind>OneSin</heldPawnKind>
+                <capturedLetterLabel>Abnormality captured</capturedLetterLabel>
+                <capturedLetterText>{PAWN_nameDef} chained the containment box to a holding platform.</capturedLetterText>
+            </li> 
+        </comps>
+    </ThingDef>
+
+    <!-- He -->
+    <ThingDef ParentName="ContainmentBox">
+        <defName>BoxSingingMachine</defName>
+        <comps>
+            <li Class="CompProperties_HoldingPlatformTarget">
+                <heldPawnKind>SingingMachine</heldPawnKind>
+                <capturedLetterLabel>Abnormality captured</capturedLetterLabel>
+                <capturedLetterText>{PAWN_nameDef} chained the containment box to a holding platform.</capturedLetterText>
+            </li> 
+        </comps>
+    </ThingDef>
+
+    <!-- Aleph -->
+    <ThingDef ParentName="ContainmentBox">
+        <defName>BoxNothingThere</defName>
+        <comps>
+            <li Class="CompProperties_HoldingPlatformTarget">
+                <heldPawnKind>NothingThere</heldPawnKind>
+                <capturedLetterLabel>Abnormality captured</capturedLetterLabel>
+                <capturedLetterText>{PAWN_nameDef} chained the containment box to a holding platform.</capturedLetterText>
+            </li> 
+        </comps>
+    </ThingDef>
+
+</Defs>

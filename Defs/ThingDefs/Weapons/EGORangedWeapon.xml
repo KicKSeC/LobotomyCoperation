@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    
+  <RulePackDef>
+    <defName>NamerEGOWeapon</defName>
+    <rulePack>
+      <include>
+        <li>NamerAnimalUtility</li>
+      </include>
+      <!-- 각 에고웨폰에 맞는 무기 특성으로 수정 필요 -->
+      <rulesStrings>
+        <li>r_weapon_name(p=3)->[noun][verber]</li> 
+        <li>r_weapon_name(p=1)->[NamePerson]</li> 
+        
+        <li>noun->death</li>
+        <li>noun->pain</li>
+        <li>noun->blood</li>
+        <li>noun->murder</li>
+        <li>noun->fear</li> 
+        <li>verber->breaker</li>
+        <li>verber->smasher</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

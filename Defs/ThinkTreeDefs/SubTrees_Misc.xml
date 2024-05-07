@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThinkTreeDef>
+        <defName>MentalStateNonCritical</defName>
+        <thinkRoot Class="ThinkNode_Tagger">
+            <tagToGive>InMentalState</tagToGive>
+            <subNodes>
+                <li Class="ThinkNode_ConditionalMentalState">
+                    <state>Melophile</state>
+                    <subNodes>
+                        <li Class="Abnormality.JobGiver_Melophile"/>
+                    </subNodes>
+                </li>
+
+                <li Class="ThinkNode_ConditionalMentalState">
+                    <state>MelophileKiller</state>
+                    <subNodes>
+                        <li Class="Abnormality.JobGiver_MelophileKiller"/>
+                    </subNodes> 
+                </li>
+
+                <li Class="ThinkNode_ConditionalMentalState">
+                    <state>MelophileSuicide</state>
+                    <subNodes>
+                        <li Class="Abnormality.JobGiver_MelophileSuicide"/>
+                    </subNodes>
+                </li>
+            </subNodes> 
+        </thinkRoot>
+    </ThinkTreeDef>
+</Defs>

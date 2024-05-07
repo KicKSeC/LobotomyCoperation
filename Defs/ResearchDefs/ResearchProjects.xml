@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+    <researchProjectDef>
+        <defName>ExtractingAbnormality</defName>
+        <label>abnormality</label>
+        <description>Unlock extract and research for Abnormalies</description>
+        <tab>LobotomyCoperation</tab>
+        <prerequisites>
+            <li>AdvancedPsychicRituals</li>
+        </prerequisites>
+        <knowledgeCost>20</knowledgeCost>
+        <knowledgeCategory>Basic</knowledgeCategory>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>3.00</researchViewY>
+        <generalRules>
+          <rulesStrings>
+            <li>subject->EGO</li>
+          </rulesStrings>
+        </generalRules>
+    </researchProjectDef>
+
+    <researchProjectDef>
+        <defName>EGO</defName>
+        <label>E.G.O.</label>
+        <description>Unlock acquisition and research for EGO</description>
+        <tab>LobotomyCoperation</tab>
+        <prerequisites>
+            <li>ExtractingAbnormality</li>
+        </prerequisites>
+        <knowledgeCost>20</knowledgeCost>
+        <knowledgeCategory>Basic</knowledgeCategory>
+        <researchViewX>0.80</researchViewX>
+        <researchViewY>2.00</researchViewY>
+        <generalRules>
+          <rulesStrings>
+            <li>subject->OneSinEGO</li>
+            <li>subject->SingingMachineEGO</li>
+            <li>subject->NothingThereEGO</li>
+          </rulesStrings>
+        </generalRules>
+    </researchProjectDef>
+
+    <researchProjectDef>
+      <defName>OneSinEGO</defName>
+      <label>one sin and hundreds of good deeds EGO</label>
+      <description>Unlock acquisition for one sin and hundreds of good deeds EGO</description>
+      <tab>LobotomyCoperation</tab>
+      <prerequisites>
+        <li>EGO</li>
+      </prerequisites>
+      <knowledgeCost>10</knowledgeCost>
+      <knowledgeCategory>Basic</knowledgeCategory>
+      <researchViewX>1.60</researchViewX>
+      <researchViewY>0.00</researchViewY>
+    </researchProjectDef>
+
+    <researchProjectDef>
+      <defName>SingingMachineEGO</defName>
+      <label>singing machine EGO</label>
+      <description>Unlock acquisition for Nothing There EGO</description>
+      <tab>LobotomyCoperation</tab>
+      <prerequisites>
+        <li>EGO</li>
+      </prerequisites>
+      <knowledgeCategory>Advanced</knowledgeCategory>
+      <researchViewX>3.60</researchViewX>
+      <researchViewY>0.00</researchViewY>
+    </researchProjectDef>
+
+    <researchProjectDef>
+        <defName>NothingThereEGO</defName>
+        <label>nothing there EGO</label>
+        <description>Unlock acquisition for Nothing There EGO</description>
+        <tab>LobotomyCoperation</tab>
+        <prerequisites>
+            <li>EGO</li>
+        </prerequisites>
+        <knowledgeCost>10</knowledgeCost>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <researchViewX>5.60</researchViewX>
+        <researchViewY>0.00</researchViewY>
+    </researchProjectDef>
+
+</Defs>

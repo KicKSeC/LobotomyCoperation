@@ -3,5 +3,9 @@
 
     <!-- Nothing There -->
     <LetterLabelNothingThereEmergence>Nothing There Emergence</LetterLabelNothingThereEmergence>
-    <LetterNothingThereEmergence>The Nothing There has emerged.</LetterNothingThereEmergence>
+    <LetterNothingThereEmergence>Nothing There has emerged.</LetterNothingThereEmergence>
+
+    <!-- One Sin -->
+    <LetterLabelOneSinEmergence>One Sin and Hundreds of Good Deeds Emergence</LetterLabelOneSinEmergence>
+    <LetterOneSinEmergence>One Sin and Hundreds of Good Deeds has emerged.</LetterOneSinEmergence>
 </LanguageData>

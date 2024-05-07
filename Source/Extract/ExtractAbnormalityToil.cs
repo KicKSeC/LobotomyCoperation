@@ -48,18 +48,12 @@ namespace Abnormality
             
             // assign abnormality
             psychicRitual.Map.effecterMaintainer.AddEffecterToMaintain(EffecterDefOf.Skip_EntryNoDelay.Spawn(target.PositionHeld, psychicRitual.Map), target.PositionHeld, 60);
-            SoundDefOf.Psycast_Skip_Entry.PlayOneShot(new TargetInfo(target.PositionHeld, target.Map)); 
-
-            if (compBox.SpawnsAbnormality == null)
-            {
-                Log.Error("Could not find abnormality for ExtractAbnormality.");
-                return;
-            }  
+            SoundDefOf.Psycast_Skip_Entry.PlayOneShot(new TargetInfo(target.PositionHeld, target.Map));  
 
             psychicRitual.Map.effecterMaintainer.AddEffecterToMaintain(EffecterDefOf.Skip_ExitNoDelay.Spawn(cell, psychicRitual.Map), cell, 60);
             SoundDefOf.Psycast_Skip_Exit.PlayOneShot(new TargetInfo(cell, psychicRitual.Map));
             target.Destroy(); 
-            Thing box = ThingMaker.MakeThing(ThingDefOf.ContainmentBox);
+            Thing box = ThingMaker.MakeThing(GetRandomContainmentBox());
             box.TryGetComp<CompContainmentBox>(out compBox);
 
             TaggedString text = "ExtractAbnormalityCompleteText".Translate(invoker.Named("INVOKER"), psychicRitual.def.Named("RITUAL"), target.Named("TARGET"));
@@ -70,6 +64,11 @@ namespace Abnormality
         {
             base.ExposeData();
             Scribe_Defs.Look(ref invokerRole, "invokerRole");
+        }
+
+        private ThingDef GetRandomContainmentBox()
+        {
+            return Find.ContainmentBoxes.RandomElement();
         }
     }
 }

@@ -26,15 +26,7 @@ namespace Abnormality
             foreach (string item in base.BlockingIssues(assignments, map))
             {
                 yield return item;
-            }
-            if (assignments.FirstAssignedPawn(invokerRole).ageTracker.AgeBiologicalYears < 13)
-            {
-                yield return "InvokerTooYoung".Translate(13);
-            }
-            if (assignments.FirstAssignedPawn(targetRole).ageTracker.AgeBiologicalYears < 13)
-            {
-                yield return "PsychicRitualTargetTooYoung".Translate(13);
-            }
+            } 
         }
         public override TaggedString OutcomeDescription(FloatRange qualityRange, string qualityNumber, PsychicRitualRoleAssignments assignments)
         {

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <!-- Zayin-->
+  <PawnKindDef>
+    <defName>OneSin</defName>
+    <label>one sin and hundreds of good deeds</label>
+    <race>OneSin</race>
+    <defaultFactionType>Abnormalities</defaultFactionType>
+    <combatPower>1</combatPower>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <overrideDebugActionCategory>Abnormality</overrideDebugActionCategory> 
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/OneSin/OneSin</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>2</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- He -->
+  <PawnKindDef>
+    <defName>SingingMachine</defName>
+    <label>singing machine</label>
+    <race>SingingMachine</race>
+    <defaultFactionType>Abnormalities</defaultFactionType>
+    <combatPower>1</combatPower>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <overrideDebugActionCategory>Abnormality</overrideDebugActionCategory>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/SingingMachine/SingingMachine</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>2</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Aleph -->
+  <PawnKindDef>
+      <defName>NothingThere</defName>
+      <label>nothing there</label> 
+      <race>NothingThere</race> 
+      <defaultFactionType>Abnormalities</defaultFactionType>
+      <combatPower>600</combatPower>
+      <forceDeathOnDowned>true</forceDeathOnDowned> 
+      <overrideDebugActionCategory>Abnormality</overrideDebugActionCategory>
+      <lifeStages>
+        <li>
+          <bodyGraphicData>
+            <texPath>Things/Pawn/NothingThere/NothingThere</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+          </bodyGraphicData>
+        </li>
+      </lifeStages>
+  </PawnKindDef>
+
+</Defs>

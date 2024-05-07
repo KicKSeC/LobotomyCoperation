@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <ThingDef Name="BaseAbnormality" Abstract="True" ParentName="BasePawn">
+    <statBases>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>250</ComfyTemperatureMax>
+      <StaggerDurationFactor>1</StaggerDurationFactor> 
+    </statBases>
+    <tradeability>None</tradeability>
+    <hideStats>true</hideStats>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <onlyShowInspectString>true</onlyShowInspectString>
+    <hideMainDesc>true</hideMainDesc>
+    <race> 
+      <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef> 
+      <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <canOpenFactionlessDoors>true</canOpenFactionlessDoors>
+      <alwaysAwake>true</alwaysAwake>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <hasCorpse>false</hasCorpse>
+      <foodType>None</foodType>
+      <bloodDef>Filth_Blood</bloodDef> 
+      <lifeExpectancy>1000</lifeExpectancy>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+    </race>
+    <comps>
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>-1</baseEscapeIntervalMtbDays>
+        <canBeExecuted>false</canBeExecuted>
+        <hasAnimation>false</hasAnimation>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Nothing There -->
+  <ThingDef Name="NothingThere" ParentName="BaseFleshbeast">
+    <defName>NothingThere</defName>
+    <label>nothing there</label>
+    <description>And the many shells cried out one word, "Manager".</description>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <graphicData>
+      <texPath>Things/Pawn/NothingThere/NothingThere</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData> 
+    <statBases>
+      <MoveSpeed>5.0</MoveSpeed>
+      <Flammability>1.5</Flammability>
+      <PsychicSensitivity>1</PsychicSensitivity>
+      <MinimumContainmentStrength>120</MinimumContainmentStrength>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <ToxicResistance>1</ToxicResistance>
+    </statBases>
+    <uiIconPath>UI/CodexEntries/NothingThereUI</uiIconPath> 
+    <race>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <body>NothingThere</body>
+      <baseBodySize>2</baseBodySize>
+      <baseHealthScale>50</baseHealthScale> 
+      <hasCorpse>false</hasCorpse>
+      <lifeExpectancy>1000</lifeExpectancy> 
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+        </li>
+      </lifeStageAges>
+    </race>
+    <!-- componenet -->
+    <comps>    
+      <li>
+        <compClass>Abnormality.CompNothingThere</compClass>
+      </li> 
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>-1</baseEscapeIntervalMtbDays>
+        <lookForTargetOnEscape>false</lookForTargetOnEscape>
+      </li>
+      <li Class="CompProperties_AttachPoints">
+        <points>
+          <li>
+            <offset>(-.45, 0, .3)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.70, 0, .40)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.40, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-0.9, 0, -.75)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </points>
+      </li>
+      <li Class="CompProperties_ProducesBioferrite">
+        <bioferriteDensity>20</bioferriteDensity>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <anomalyKnowledge>3</anomalyKnowledge>
+        <minMonolithLevelForStudy>4</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li> 
+    </comps> 
+    <tools>
+      <li>
+        <label>hand</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>80</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li> 
+        <label>head</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>90</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.5</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>  
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>60</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- One Sin -->
+  <ThingDef Name="OneSin" ParentName="BaseAbnormality">
+    <defName>OneSin</defName>
+    <label>one sin and hundreds of good deeds</label>
+    <description>It feeds on the “evil” that seeps out during conversations between people.</description>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <graphicData>
+      <texPath>Things/Pawn/OneSin/OneSin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <statBases>
+      <MoveSpeed>0</MoveSpeed>
+      <Flammability>0</Flammability>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <MinimumContainmentStrength>0</MinimumContainmentStrength>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <ToxicResistance>1</ToxicResistance>
+    </statBases>
+    <uiIconPath>UI/CodexEntries/OneSinUI</uiIconPath>
+    <race>
+      <body>OneSin</body>
+      <thinkTreeMain>FleshmassNucleus</thinkTreeMain>
+      <thinkTreeConstant>FleshmassNucleusConstant</thinkTreeConstant>
+      <doesntMove>true</doesntMove>
+      <baseHealthScale>100</baseHealthScale>  
+      <baseBodySize>2</baseBodySize>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li>
+        <compClass>Abnormality.CompOneSin</compClass>
+      </li> 
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
+        <lookForTargetOnEscape>false</lookForTargetOnEscape>
+      </li>
+      <li Class="CompProperties_AttachPoints">
+        <points>
+          <li>
+            <offset>(-.40, 0, .40)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.40, 0, .40)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.40, 0, -.40)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-0.4, 0, -.40)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </points>
+      </li>
+      <li Class="CompProperties_ProducesBioferrite">
+        <bioferriteDensity>20</bioferriteDensity>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Basic</knowledgeCategory>
+        <anomalyKnowledge>1</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li> 
+    </comps> 
+  </ThingDef>
+
+  <ThingDef Name="SingingMachine" ParentName="BaseAbnormality">
+    <defName>SingingMachine</defName>
+    <label>singing machine</label>
+    <description>But nothing could compare to the music it makes when it eats a human.</description>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <graphicData>
+      <texPath>Things/Pawn/SingingMachine/SingingMachine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>4</drawSize>
+    </graphicData>
+    <statBases>
+      <MoveSpeed>0</MoveSpeed>
+      <Flammability>0</Flammability>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <MinimumContainmentStrength>0</MinimumContainmentStrength>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <ToxicResistance>1</ToxicResistance>
+    </statBases>
+    <uiIconPath>UI/CodexEntries/SingingMachineUI</uiIconPath>
+    <race>
+      <body>SingingMachine</body>
+      <thinkTreeMain>FleshmassNucleus</thinkTreeMain>
+      <thinkTreeConstant>FleshmassNucleusConstant</thinkTreeConstant>
+      <doesntMove>true</doesntMove>
+      <baseHealthScale>100</baseHealthScale>  
+      <baseBodySize>2</baseBodySize>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li>
+        <compClass>Abnormality.CompSingingMachine</compClass>
+      </li> 
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
+        <lookForTargetOnEscape>false</lookForTargetOnEscape>
+      </li>
+      <li Class="CompProperties_AttachPoints">
+        <points>
+          <li>
+            <offset>(-.70, 0, .70)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.70, 0, .70)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.70, 0, -.70)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-0.7, 0, -.70)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </points>
+      </li>
+      <li Class="CompProperties_ProducesBioferrite">
+        <bioferriteDensity>20</bioferriteDensity>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <anomalyKnowledge>1</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li> 
+    </comps> 
+  </ThingDef>
+</Defs>

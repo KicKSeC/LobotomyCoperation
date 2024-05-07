@@ -11,7 +11,10 @@ namespace Abnormality
     [DefOf]
     public static class ThingDefOf
     {
-        public static ThingDef ContainmentBox;
+        public static ThingDef BoxOneSin;
+        public static ThingDef BoxNothingThere;
+        public static ThingDef BoxSingingMachine;
+
         static ThingDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(RimWorld.ThingDefOf));
