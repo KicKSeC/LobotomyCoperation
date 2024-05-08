@@ -9,13 +9,7 @@ using Verse;
 namespace Abnormality
 {
     public class CompContainmentBox : CompInteractable
-    {
-        protected override void OnInteracted(Pawn caster)
-        { 
-            CompUsable comp = parent.GetComp<CompUsable>();
-            comp.TryStartUseJob(caster, comp.GetExtraTarget(caster));
-        } 
-
+    {  
         public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn selPawn)
         {
             yield break;
@@ -24,8 +18,6 @@ namespace Abnormality
 
     public class CompProperties_ContainmentBox : CompProperties
     {
-        public CompProperties_SpawnsAbnormality SpawnsAbnormality { get; set; }
-
         public CompProperties_ContainmentBox()
         {
             compClass = typeof(CompContainmentBox);

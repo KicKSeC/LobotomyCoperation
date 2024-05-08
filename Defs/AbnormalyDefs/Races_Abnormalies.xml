@@ -37,6 +37,196 @@
     </comps>
   </ThingDef>
 
+  <!-- One Sin -->
+  <ThingDef Name="OneSin" ParentName="BaseAbnormality">
+    <defName>OneSin</defName>
+    <label>one sin and hundreds of good deeds</label>
+    <description>It feeds on the “evil” that seeps out during conversations between people.</description>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <graphicData>
+      <texPath>Things/Pawn/OneSin/OneSin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <statBases>
+      <MoveSpeed>0</MoveSpeed>
+      <Flammability>0</Flammability>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <MinimumContainmentStrength>0</MinimumContainmentStrength>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <ToxicResistance>1</ToxicResistance>
+    </statBases>
+    <uiIconPath>UI/CodexEntries/OneSinUI</uiIconPath>
+    <race>
+      <body>OneSin</body>
+      <thinkTreeMain>FleshmassNucleus</thinkTreeMain>
+      <thinkTreeConstant>FleshmassNucleusConstant</thinkTreeConstant>
+      <doesntMove>true</doesntMove>
+      <baseHealthScale>100</baseHealthScale>  
+      <baseBodySize>2</baseBodySize>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps> 
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
+        <lookForTargetOnEscape>false</lookForTargetOnEscape>
+      </li>
+      <li Class="CompProperties_AttachPoints">
+        <points>
+          <li>
+            <offset>(-.40, 0, .40)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.40, 0, .40)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.40, 0, -.40)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-0.4, 0, -.40)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </points>
+      </li>
+      <li Class="CompProperties_ProducesBioferrite">
+        <bioferriteDensity>20</bioferriteDensity>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Basic</knowledgeCategory>
+        <anomalyKnowledge>1</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li> 
+      <li Class="Abnormality.CompProperties_OneSin">
+        <unstableInspectText>Unstable: cannot be suppressed</unstableInspectText>  
+
+        <!-- Interactable -->
+        <activeTicks>1</activeTicks>
+        <ticksToActivate>180</ticksToActivate>
+        <jobString>interact one sin and hundreds of good deeds</jobString>
+        <activateLabelString>Choose person to interact</activateLabelString>
+        <activateDescString>Send a human to interact with an abnormality. Something might happen.</activateDescString>
+        <activateTexPath>UI/CodexEntries/OneSinUI</activateTexPath>
+      </li>
+    </comps> 
+  </ThingDef>
+
+  <!-- Singing Machine -->
+  <ThingDef Name="SingingMachine" ParentName="BaseAbnormality">
+    <defName>SingingMachine</defName>
+    <label>singing machine</label>
+    <description>But nothing could compare to the music it makes when it eats a human.</description>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <graphicData>
+      <texPath>Things/Pawn/SingingMachine/SingingMachine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>4</drawSize>
+    </graphicData>
+    <statBases>
+      <MoveSpeed>0</MoveSpeed>
+      <Flammability>0</Flammability>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <MinimumContainmentStrength>0</MinimumContainmentStrength>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <ToxicResistance>1</ToxicResistance>
+    </statBases>
+    <uiIconPath>UI/CodexEntries/SingingMachineUI</uiIconPath>
+    <race>
+      <body>SingingMachine</body>
+      <thinkTreeMain>FleshmassNucleus</thinkTreeMain>
+      <thinkTreeConstant>FleshmassNucleusConstant</thinkTreeConstant>
+      <doesntMove>true</doesntMove>
+      <baseHealthScale>100</baseHealthScale>  
+      <baseBodySize>2</baseBodySize>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
+        <lookForTargetOnEscape>false</lookForTargetOnEscape>
+      </li>
+      <li Class="CompProperties_AttachPoints">
+        <points>
+          <li>
+            <offset>(-.70, 0, .70)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.70, 0, .70)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.70, 0, -.70)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-0.7, 0, -.70)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </points>
+      </li>
+      <li Class="CompProperties_ProducesBioferrite">
+        <bioferriteDensity>20</bioferriteDensity>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <anomalyKnowledge>1</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>  
+      <li Class="CompProperties_Activity">
+        <startingRange>0.2~0.4</startingRange>
+        <changePerDayOutside>0.05</changePerDayOutside>
+        <workerClass>Abnormality.SingingMachineActivityWorker</workerClass>
+        <showLetterOnActivated>true</showLetterOnActivated>
+        <showLetterOnManualActivation>false</showLetterOnManualActivation>
+        <letterDef>ThreatBig</letterDef>
+        <letterTitle>Singing Machine activated</letterTitle>
+        <letterDesc>The singing machine's activity level has reached 100% and it has activated. Prepare what will happen.</letterDesc> 
+        <activityResearchFactorCurve>
+          <points>
+            <li>0, 0.5</li>
+            <li>0.5, 1</li>
+            <li>0.99, 2</li>
+          </points>
+        </activityResearchFactorCurve>
+        <damagedActivityMultiplierCurve>
+          <points>
+            <li>0.25, 100</li>
+            <li>0.5, 10</li>
+            <li>0.75, 2</li>
+            <li>1, 1</li>
+          </points>
+        </damagedActivityMultiplierCurve>
+      </li> 
+      <li Class="Abnormality.CompProperties_SingingMachine"> 
+        <unstableInspectText>Unstable: cannot be suppressed</unstableInspectText>  
+
+        <!-- Interactable -->
+        <activeTicks>1</activeTicks>
+        <ticksToActivate>180</ticksToActivate>
+        <jobString>interact singing machine</jobString>
+        <activateLabelString>Choose person to interact</activateLabelString>
+        <activateDescString>Send a human to interact with an abnormality. Something might happen.</activateDescString>
+        <activateTexPath>UI/CodexEntries/SingingMachineUI</activateTexPath>
+        
+      </li>
+    </comps> 
+  </ThingDef>
+
   <!-- Nothing There -->
   <ThingDef Name="NothingThere" ParentName="BaseFleshbeast">
     <defName>NothingThere</defName>
@@ -73,10 +263,7 @@
       </lifeStageAges>
     </race>
     <!-- componenet -->
-    <comps>    
-      <li>
-        <compClass>Abnormality.CompNothingThere</compClass>
-      </li> 
+    <comps>     
       <li Class="CompProperties_HoldingPlatformTarget">
         <baseEscapeIntervalMtbDays>-1</baseEscapeIntervalMtbDays>
         <lookForTargetOnEscape>false</lookForTargetOnEscape>
@@ -111,6 +298,17 @@
         <minMonolithLevelForStudy>4</minMonolithLevelForStudy>
         <requiresHoldingPlatform>true</requiresHoldingPlatform>
       </li> 
+      <li Class="Abnormality.CompProperties_NothingThere">
+        <unstableInspectText>Unstable: cannot be suppressed</unstableInspectText>  
+
+        <!-- Interactable -->
+        <activeTicks>1</activeTicks>
+        <ticksToActivate>180</ticksToActivate>
+        <jobString>interact nothing there</jobString>
+        <activateLabelString>Choose person to interact</activateLabelString>
+        <activateDescString>Send a human to interact with an abnormality. Something might happen.</activateDescString>
+        <activateTexPath>UI/CodexEntries/NothingThereUI</activateTexPath>
+      </li>
     </comps> 
     <tools>
       <li>
@@ -163,152 +361,5 @@
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
-  </ThingDef>
-
-  <!-- One Sin -->
-  <ThingDef Name="OneSin" ParentName="BaseAbnormality">
-    <defName>OneSin</defName>
-    <label>one sin and hundreds of good deeds</label>
-    <description>It feeds on the “evil” that seeps out during conversations between people.</description>
-    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
-    <graphicData>
-      <texPath>Things/Pawn/OneSin/OneSin</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>2</drawSize>
-    </graphicData>
-    <statBases>
-      <MoveSpeed>0</MoveSpeed>
-      <Flammability>0</Flammability>
-      <PsychicSensitivity>0</PsychicSensitivity>
-      <MinimumContainmentStrength>0</MinimumContainmentStrength>
-      <StaggerDurationFactor>0</StaggerDurationFactor>
-      <ToxicResistance>1</ToxicResistance>
-    </statBases>
-    <uiIconPath>UI/CodexEntries/OneSinUI</uiIconPath>
-    <race>
-      <body>OneSin</body>
-      <thinkTreeMain>FleshmassNucleus</thinkTreeMain>
-      <thinkTreeConstant>FleshmassNucleusConstant</thinkTreeConstant>
-      <doesntMove>true</doesntMove>
-      <baseHealthScale>100</baseHealthScale>  
-      <baseBodySize>2</baseBodySize>
-      <lifeStageAges>
-        <li>
-          <def>EntityFullyFormed</def>
-        </li>
-      </lifeStageAges>
-    </race>
-    <comps>
-      <li>
-        <compClass>Abnormality.CompOneSin</compClass>
-      </li> 
-      <li Class="CompProperties_HoldingPlatformTarget">
-        <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
-        <lookForTargetOnEscape>false</lookForTargetOnEscape>
-      </li>
-      <li Class="CompProperties_AttachPoints">
-        <points>
-          <li>
-            <offset>(-.40, 0, .40)</offset>
-            <type>PlatformRestraint0</type>
-          </li>
-          <li>
-            <offset>(.40, 0, .40)</offset>
-            <type>PlatformRestraint1</type>
-          </li>
-          <li>
-            <offset>(.40, 0, -.40)</offset>
-            <type>PlatformRestraint2</type>
-          </li>
-          <li>
-            <offset>(-0.4, 0, -.40)</offset>
-            <type>PlatformRestraint3</type>
-          </li>
-        </points>
-      </li>
-      <li Class="CompProperties_ProducesBioferrite">
-        <bioferriteDensity>20</bioferriteDensity>
-      </li>
-      <li Class="CompProperties_Studiable">
-        <frequencyTicks>120000</frequencyTicks>
-        <knowledgeCategory>Basic</knowledgeCategory>
-        <anomalyKnowledge>1</anomalyKnowledge>
-        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
-        <requiresHoldingPlatform>true</requiresHoldingPlatform>
-      </li> 
-    </comps> 
-  </ThingDef>
-
-  <ThingDef Name="SingingMachine" ParentName="BaseAbnormality">
-    <defName>SingingMachine</defName>
-    <label>singing machine</label>
-    <description>But nothing could compare to the music it makes when it eats a human.</description>
-    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
-    <graphicData>
-      <texPath>Things/Pawn/SingingMachine/SingingMachine</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>4</drawSize>
-    </graphicData>
-    <statBases>
-      <MoveSpeed>0</MoveSpeed>
-      <Flammability>0</Flammability>
-      <PsychicSensitivity>0</PsychicSensitivity>
-      <MinimumContainmentStrength>0</MinimumContainmentStrength>
-      <StaggerDurationFactor>0</StaggerDurationFactor>
-      <ToxicResistance>1</ToxicResistance>
-    </statBases>
-    <uiIconPath>UI/CodexEntries/SingingMachineUI</uiIconPath>
-    <race>
-      <body>SingingMachine</body>
-      <thinkTreeMain>FleshmassNucleus</thinkTreeMain>
-      <thinkTreeConstant>FleshmassNucleusConstant</thinkTreeConstant>
-      <doesntMove>true</doesntMove>
-      <baseHealthScale>100</baseHealthScale>  
-      <baseBodySize>2</baseBodySize>
-      <lifeStageAges>
-        <li>
-          <def>EntityFullyFormed</def>
-        </li>
-      </lifeStageAges>
-    </race>
-    <comps>
-      <li>
-        <compClass>Abnormality.CompSingingMachine</compClass>
-      </li> 
-      <li Class="CompProperties_HoldingPlatformTarget">
-        <baseEscapeIntervalMtbDays>999</baseEscapeIntervalMtbDays>
-        <lookForTargetOnEscape>false</lookForTargetOnEscape>
-      </li>
-      <li Class="CompProperties_AttachPoints">
-        <points>
-          <li>
-            <offset>(-.70, 0, .70)</offset>
-            <type>PlatformRestraint0</type>
-          </li>
-          <li>
-            <offset>(.70, 0, .70)</offset>
-            <type>PlatformRestraint1</type>
-          </li>
-          <li>
-            <offset>(.70, 0, -.70)</offset>
-            <type>PlatformRestraint2</type>
-          </li>
-          <li>
-            <offset>(-0.7, 0, -.70)</offset>
-            <type>PlatformRestraint3</type>
-          </li>
-        </points>
-      </li>
-      <li Class="CompProperties_ProducesBioferrite">
-        <bioferriteDensity>20</bioferriteDensity>
-      </li>
-      <li Class="CompProperties_Studiable">
-        <frequencyTicks>120000</frequencyTicks>
-        <knowledgeCategory>Advanced</knowledgeCategory>
-        <anomalyKnowledge>1</anomalyKnowledge>
-        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
-        <requiresHoldingPlatform>true</requiresHoldingPlatform>
-      </li> 
-    </comps> 
   </ThingDef>
 </Defs>

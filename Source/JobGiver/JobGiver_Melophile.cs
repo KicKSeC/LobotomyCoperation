@@ -11,7 +11,7 @@ using Verse.AI;
 namespace Abnormality
 {
     public class JobGiver_Melophile : ThinkNode_JobGiver
-    { 
+    {  
         protected override Job TryGiveJob(Pawn pawn)
         {
             if(!(pawn.MentalState is MentalState_Melophile melophile))
@@ -19,15 +19,15 @@ namespace Abnormality
                 return null;
             }
 
-            Pawn target = melophile.target;
-            var singingMachine = pawn.Map.mapPawns.AllPawns.Where(pawn1 => pawn1.HasComp<CompSingingMachine>());
-            if (singingMachine.EnumerableNullOrEmpty())
+            Corpse target = melophile.corpse;
+            var singingMachines = pawn.Map.mapPawns.AllPawnsSpawned.Where(pawn1 => pawn1.HasComp<CompSingingMachine>());
+            if (singingMachines.EnumerableNullOrEmpty() || target == null)
             { 
                 return null;
-            }
+            } 
 
-            Job job = JobMaker.MakeJob(RimWorld.JobDefOf.InteractThing, target, singingMachine.RandomElement()); 
-            job.count = 1;
+            Job job = JobMaker.MakeJob(RimWorld.JobDefOf.InteractThing, singingMachines.RandomElement(), target); 
+            job.count = 1; 
             return job; 
         }
     }

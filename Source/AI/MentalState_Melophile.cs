@@ -12,12 +12,12 @@ namespace Abnormality.AI
     public class MentalState_Melophile : MentalState
     {
 
-        public Pawn target; 
+        public Corpse corpse; 
 
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_References.Look(ref target, "target");
+            Scribe_References.Look(ref corpse, "corpse"); 
         }
 
         public override RandomSocialMode SocialModeMax()
@@ -28,51 +28,70 @@ namespace Abnormality.AI
         public override void PreStart()
         {
             base.PreStart();
-            if (!TryFindNewTarget())
-            {
-                TrySetMelophileKiller();
-            }
+            TryFindNewTarget();
         }
 
+        // TODO: 일단 시체를 들고 있을 땐 탐색에서 제외시켜야겠다. corpse obssesion을 참고해서 해봐야지. 
         public override void MentalStateTick()
         {
             base.MentalStateTick();
+
+            if(IsHaulingCorpse())
+            { 
+                return;
+            }
+
             if (pawn.IsHashIntervalTick(120) && !IsTargetStillValidAndReachable())
             { 
                 if (!TryFindNewTarget())
                 { 
-                    if (pawn.Map.mapPawns.AllHumanlike.Empty())
+                    if (pawn.Map.mapPawns.ColonistsSpawnedCount < 2)
                     {
                         TrySetMelophileSuicide();
                     }
-                    if (!TrySetMelophileKiller())
+                    else if (!TrySetMelophileKiller())
                     { 
                         Log.Error("cannot change mental state");
                     }
                     return;
                 }
-                Messages.Message("MessageMelophileChangedTarget".Translate(pawn.NameShortColored, target.Label, pawn.Named("PAWN"), target.Named("TARGET")).Resolve().AdjustedFor(pawn), pawn, MessageTypeDefOf.NegativeEvent);
+                Messages.Message("MessageMelophileChangedTarget".Translate(pawn.NameShortColored, corpse.Label, pawn.Named("PAWN"), corpse.Named("TARGET")).Resolve().AdjustedFor(pawn), pawn, MessageTypeDefOf.NeutralEvent);
                 base.MentalStateTick();
             }
         }
 
-        public override TaggedString GetBeginLetterText()
+        public bool IsTargetStillValidAndReachable()
         {
-            // def가 null이래요 
-            return def.beginLetter.Formatted(pawn.NameShortColored, target.NameShortColored, pawn.Named("PAWN"), target.Named("TARGET")).AdjustedFor(pawn).Resolve()
-                .CapitalizeFirst();
+            if (corpse != null && corpse.SpawnedParentOrMe != null && (!(corpse.SpawnedParentOrMe is Pawn) || corpse.SpawnedParentOrMe == corpse))
+            {
+                return pawn.CanReach(corpse.SpawnedParentOrMe, PathEndMode.Touch, Danger.Deadly, canBashDoors: true);
+            }
+            return false;
+        }
+
+        public bool IsHaulingCorpse()
+        {
+            if(pawn.CurJob != null && pawn.CurJob.def == RimWorld.JobDefOf.InteractThing)
+            {
+                Thing thing = pawn.CurJob.targetB.Thing;
+                if (thing != null && thing is Corpse corpse)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private bool TryFindNewTarget()
         {
-            bool Validator(Thing t)
+            bool Validator(Thing thing)
             {
-                Pawn body = (Pawn)t;
-                return body.Dead && body.RaceProps.Humanlike && pawn.CanReach(body, PathEndMode.None, Danger.Deadly);
+                return thing is Corpse corpse && corpse.InnerPawn.RaceProps.Humanlike && !corpse.Destroyed && pawn.CanReach(corpse, PathEndMode.None, Danger.Deadly);
             }
 
-            target = (Pawn)GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.OnCell, TraverseParms.For(pawn), validator: Validator);
-            return target != null;
+            corpse = (Corpse)GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForGroup(ThingRequestGroup.Corpse), PathEndMode.Touch, TraverseParms.For(pawn), validator: Validator);
+            return corpse != null;
         }
 
         private bool TrySetMelophileKiller()
@@ -85,13 +104,5 @@ namespace Abnormality.AI
             return pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.MelophileSuicide, forced: true, forceWake: false, causedByMood: false);
         }
 
-        public bool IsTargetStillValidAndReachable()
-        {
-            if (target != null && target.SpawnedParentOrMe != null && (!(target.SpawnedParentOrMe is Pawn) || target.SpawnedParentOrMe == target))
-            {
-                return pawn.CanReach(target.SpawnedParentOrMe, PathEndMode.Touch, Danger.Deadly, canBashDoors: true);
-            }
-            return false;
-        } 
     }
 }

@@ -117,10 +117,10 @@
         </thingCategories>
         <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered> 
         <comps> 
-            <li Class="Abnormality.CompProperties_ContainmentBox"/>  
             <li Class="CompProperties_UseEffectPlaySound">
                 <soundOnUsed>RevenantSpineSmash</soundOnUsed>
             </li>
+            <li Class="Abnormality.CompProperties_ContainmentBox"/>
         </comps> 
     </ThingDef>  
 

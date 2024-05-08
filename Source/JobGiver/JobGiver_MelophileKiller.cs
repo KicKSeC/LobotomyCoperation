@@ -19,11 +19,12 @@ namespace Abnormality
             }
             Thing spawnedParentOrMe = melophileKiller.target.SpawnedParentOrMe;
             Job job = JobMaker.MakeJob(RimWorld.JobDefOf.AttackMelee, spawnedParentOrMe);
+            job.count = 1;
             job.canBashDoors = true;
             job.killIncappedTarget = true;
             if (spawnedParentOrMe != melophileKiller.target)
             {
-                job.maxNumMeleeAttacks = 2;
+                job.maxNumMeleeAttacks = 1;
             }
             return job;
         }

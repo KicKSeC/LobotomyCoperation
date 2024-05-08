@@ -24,7 +24,7 @@ namespace Abnormality
                 return null; 
             }
 
-            Job job = JobMaker.MakeJob(RimWorld.JobDefOf.InteractThing, singingMachines.RandomElement());
+            Job job = JobMaker.MakeJob(RimWorld.JobDefOf.InteractThing, singingMachines.RandomElement(), pawn);
             job.count = 1;
             return job;
         }

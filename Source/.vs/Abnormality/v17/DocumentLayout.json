@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compsingingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compsingingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\ai\\mentalstate_melophile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:ai\\mentalstate_melophile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\jobgiver\\jobgiver_melophilesuicide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:jobgiver\\jobgiver_melophilesuicide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\ai\\mentalstate_melophilesuicide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:ai\\mentalstate_melophilesuicide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\ai\\mentalstate_melophilekiller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:ai\\mentalstate_melophilekiller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\jobgiver\\jobgiver_melophile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:jobgiver\\jobgiver_melophile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compsingingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compsingingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\comp\\compcontainmentbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:comp\\compcontainmentbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\jobgiver\\jobgiver_melophilekiller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:jobgiver\\jobgiver_melophilekiller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\abnormality\\source\\jobgiver\\jobgiver_melophilesuicide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92F19A6-CAFB-4230-9C25-4916C1B32784}|Abnormality.csproj|solutionrelative:jobgiver\\jobgiver_melophilesuicide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,114 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CompContainmentBox.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompContainmentBox.cs",
-              "RelativeDocumentMoniker": "Comp\\CompContainmentBox.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompContainmentBox.cs",
-              "RelativeToolTip": "Comp\\CompContainmentBox.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T20:32:40.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CompSingingMachine.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompSingingMachine.cs",
-              "RelativeDocumentMoniker": "Comp\\CompSingingMachine.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompSingingMachine.cs",
-              "RelativeToolTip": "Comp\\CompSingingMachine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T19:18:55.719Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "JobGiver_MelophileKiller.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\JobGiver\\JobGiver_MelophileKiller.cs",
-              "RelativeDocumentMoniker": "JobGiver\\JobGiver_MelophileKiller.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\JobGiver\\JobGiver_MelophileKiller.cs",
-              "RelativeToolTip": "JobGiver\\JobGiver_MelophileKiller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:14:06.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JobGiver_Melophile.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\JobGiver\\JobGiver_Melophile.cs",
-              "RelativeDocumentMoniker": "JobGiver\\JobGiver_Melophile.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\JobGiver\\JobGiver_Melophile.cs",
-              "RelativeToolTip": "JobGiver\\JobGiver_Melophile.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBwAAABuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:14:06.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "JobGiver_MelophileSuicide.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\JobGiver\\JobGiver_MelophileSuicide.cs",
               "RelativeDocumentMoniker": "JobGiver\\JobGiver_MelophileSuicide.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\JobGiver\\JobGiver_MelophileSuicide.cs",
               "RelativeToolTip": "JobGiver\\JobGiver_MelophileSuicide.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBMAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:12:42.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MentalState_MelophileSuicide.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\AI\\MentalState_MelophileSuicide.cs",
-              "RelativeDocumentMoniker": "AI\\MentalState_MelophileSuicide.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\AI\\MentalState_MelophileSuicide.cs",
-              "RelativeToolTip": "AI\\MentalState_MelophileSuicide.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:47:58.902Z",
+              "WhenOpened": "2024-05-08T20:07:45.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CompSingingMachine.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompSingingMachine.cs",
+              "RelativeDocumentMoniker": "Comp\\CompSingingMachine.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\Comp\\CompSingingMachine.cs",
+              "RelativeToolTip": "Comp\\CompSingingMachine.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwEcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:02:31.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobGiver_Melophile.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\JobGiver\\JobGiver_Melophile.cs",
+              "RelativeDocumentMoniker": "JobGiver\\JobGiver_Melophile.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\JobGiver\\JobGiver_Melophile.cs",
+              "RelativeToolTip": "JobGiver\\JobGiver_Melophile.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:42:56.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MentalState_Melophile.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\AI\\MentalState_Melophile.cs",
               "RelativeDocumentMoniker": "AI\\MentalState_Melophile.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\AI\\MentalState_Melophile.cs",
               "RelativeToolTip": "AI\\MentalState_Melophile.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAWwC4AAAAVAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFkAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:47:58.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MentalState_MelophileKiller.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\AI\\MentalState_MelophileKiller.cs",
-              "RelativeDocumentMoniker": "AI\\MentalState_MelophileKiller.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Abnormality\\Source\\AI\\MentalState_MelophileKiller.cs",
-              "RelativeToolTip": "AI\\MentalState_MelophileKiller.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAywE0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:47:57.837Z",
+              "WhenOpened": "2024-05-08T15:31:12.569Z",
               "EditorCaption": ""
             }
           ]

@@ -8,8 +8,14 @@ using Verse;
 
 namespace Abnormality
 {
-    public abstract class CompAbnormality : ThingComp
-    { 
+    public abstract class CompAbnormality : CompInteractable, IActivity
+    {
+        public bool IsUnstable = true;
+        public Pawn Pawn => (Pawn)parent;
+        public new CompProperties_Abnormality Props => (CompProperties_Abnormality)props;
+        public CompActivity Activity => activityComp ?? (activityComp = Pawn.GetComp<CompActivity>());
+
+        private CompActivity activityComp;
         public override void CompTick()
         {
             base.CompTick();   
@@ -32,10 +38,28 @@ namespace Abnormality
         }
 
         public abstract ThingDef GetContainmentBox();
+        public bool CanBeSuppressed() => !IsUnstable;
+        public bool CanActivate() => true;
+        public string ActivityTooltipExtra() => Props.unstableInspectText.Colorize(ColoredText.WarningColor);
+        public bool ShouldGoPassive() => false;
+        public abstract void OnActivityActivated();
+        public abstract void OnPassive();
     }
 
     public abstract class CompProperties_SpawnsAbnormality : CompProperties
     {
 
+    }
+
+    public abstract class CompProperties_Abnormality : CompProperties_Interactable 
+    {
+        [MustTranslate]
+        public string unstableInspectText;
+
+
+        public CompProperties_Abnormality()
+        {
+            compClass = typeof(CompAbnormality);
+        }
     }
 }
