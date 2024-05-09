@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using Abnormality.AI;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace Abnormality
             }
 
             MakeRandomPawnGetMelophile();
-            Activity.EnterActiveState(); 
+            Activity.EnterPassiveState();
         }
 
         public override void OnPassive()
@@ -70,35 +71,44 @@ namespace Abnormality
         protected override void OnInteracted(Pawn caster)
         {
             OnActivityActivated();
+            if(caster.MentalState is MentalState_MelophileSuicide)
+            {
+                caster.Destroy();
+            }
             Messages.Message("CommandActivate".Translate(Pawn.Named("PAWN")), Pawn, MessageTypeDefOf.NeutralEvent);
         } 
 
         public void MakeRandomPawnGetMelophile()
         {
-            var pawns = Pawn.MapHeld.mapPawns.AllHumanlike.Where(pawn => (!pawn.Inhumanized() && !pawn.health.Downed && pawn.IsColonist));
-            pawns.RandomElement().mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Melophile, forced: true, forceWake: false, causedByMood: false);
+            var pawns = Pawn.MapHeld.mapPawns.AllHumanlike.Where(pawn => (!pawn.Inhumanized() && !pawn.health.Downed && pawn.IsColonist && !(pawn.MentalState is MentalState_Melophile || pawn.MentalState is MentalState_MelophileKiller || pawn.MentalState is MentalState_MelophileSuicide)));
+            if (pawns.Any() )
+            {
+                pawns.RandomElement().mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Melophile, forced: true, forceWake: false, causedByMood: false);
+            }
         }
 
         private void OrderActivate(Pawn caster)
         {
-            bool Validator(Thing thing)
-            { 
-                return thing is Corpse corpse && corpse.InnerPawn.RaceProps.Humanlike && !corpse.Destroyed && caster.CanReach(corpse, PathEndMode.None, Danger.Deadly);
-            }
 
             Verse.Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("SingingMachineActivationConfirm".Translate(), delegate
             {
-                Pawn corpse = (Pawn)GenClosest.ClosestThingReachable(caster.Position, caster.Map, ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.OnCell, TraverseParms.For(caster), validator: Validator);
+                bool Validator(Thing thing)
+                {
+                    return thing is Corpse corpse1 && corpse1.InnerPawn.RaceProps.Humanlike && !corpse1.Destroyed && caster.CanReach(corpse1, PathEndMode.Touch, Danger.Deadly);
+                }
+
+                Corpse corpse = (Corpse)GenClosest.ClosestThingReachable(caster.Position, caster.Map, ThingRequest.ForGroup(ThingRequestGroup.Corpse), PathEndMode.Touch, TraverseParms.For(caster), validator: Validator);
+
                 if (corpse != null) 
                 {
                     Job job = JobMaker.MakeJob(RimWorld.JobDefOf.InteractThing, parent, corpse);
                     job.count = 1;
                     job.playerForced = true;
-                    caster.jobs.TryTakeOrderedJob(job, JobTag.Misc);
+                    caster.jobs.TryTakeOrderedJob(job);
                 }
                 else
                 {
-                    Messages.Message("NoDeadPawnAvailable".Translate(), MessageTypeDefOf.NeutralEvent);
+                    Messages.Message("NoCorpseAvailable".Translate(), MessageTypeDefOf.NeutralEvent);
                 }
             }));
         }

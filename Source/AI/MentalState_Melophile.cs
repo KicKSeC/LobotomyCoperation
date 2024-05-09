@@ -87,7 +87,7 @@ namespace Abnormality.AI
         {
             bool Validator(Thing thing)
             {
-                return thing is Corpse corpse && corpse.InnerPawn.RaceProps.Humanlike && !corpse.Destroyed && pawn.CanReach(corpse, PathEndMode.None, Danger.Deadly);
+                return thing is Corpse corpse && corpse.InnerPawn.RaceProps.Humanlike && !corpse.Destroyed && pawn.CanReach(corpse, PathEndMode.Touch, Danger.Deadly, canBashDoors: true, canBashFences: true, TraverseMode.PassAllDestroyableThings);
             }
 
             corpse = (Corpse)GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForGroup(ThingRequestGroup.Corpse), PathEndMode.Touch, TraverseParms.For(pawn), validator: Validator);
